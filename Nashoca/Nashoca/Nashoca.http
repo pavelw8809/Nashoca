@@ -1,0 +1,6 @@
+@Nashoca_HostAddress = http://localhost:5063
+
+GET {{Nashoca_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
