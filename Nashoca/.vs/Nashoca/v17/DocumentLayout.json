@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca\\models\\verbtritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|solutionrelative:nashoca\\models\\verbtritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca\\models\\verbtrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|solutionrelative:nashoca\\models\\verbtrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca\\models\\verbtransitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|solutionrelative:nashoca\\models\\verbtransitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca\\dbcontexts\\maindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|solutionrelative:nashoca\\dbcontexts\\maindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca\\models\\verbenitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|solutionrelative:nashoca\\models\\verbenitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca\\models\\verbtr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|solutionrelative:nashoca\\models\\verbtr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca\\models\\nountritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|solutionrelative:nashoca\\models\\nountritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca\\models\\verben.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|solutionrelative:nashoca\\models\\verben.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca\\models\\nountr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|solutionrelative:nashoca\\models\\nountr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +30,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VerbTransItem.cs",
-              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\VerbTransItem.cs",
-              "RelativeDocumentMoniker": "Nashoca\\Models\\VerbTransItem.cs",
-              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\VerbTransItem.cs",
-              "RelativeToolTip": "Nashoca\\Models\\VerbTransItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "VerbTrans.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\VerbTrans.cs",
+              "RelativeDocumentMoniker": "Nashoca\\Models\\VerbTrans.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\VerbTrans.cs",
+              "RelativeToolTip": "Nashoca\\Models\\VerbTrans.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T10:24:36.714Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VerbEnItem.cs",
-              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\VerbEnItem.cs",
-              "RelativeDocumentMoniker": "Nashoca\\Models\\VerbEnItem.cs",
-              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\VerbEnItem.cs",
-              "RelativeToolTip": "Nashoca\\Models\\VerbEnItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "NounTr.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\NounTr.cs",
+              "RelativeDocumentMoniker": "Nashoca\\Models\\NounTr.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\NounTr.cs",
+              "RelativeToolTip": "Nashoca\\Models\\NounTr.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T09:54:42.346Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\DbContexts\\MainDbContext.cs",
+              "RelativeDocumentMoniker": "Nashoca\\DbContexts\\MainDbContext.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\DbContexts\\MainDbContext.cs",
+              "RelativeToolTip": "Nashoca\\DbContexts\\MainDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T15:24:59.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VerbEn.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\VerbEn.cs",
+              "RelativeDocumentMoniker": "Nashoca\\Models\\VerbEn.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\VerbEn.cs",
+              "RelativeToolTip": "Nashoca\\Models\\VerbEn.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwCQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T10:24:07.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VerbTrItem.cs",
-              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\VerbTrItem.cs",
-              "RelativeDocumentMoniker": "Nashoca\\Models\\VerbTrItem.cs",
-              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\VerbTrItem.cs",
-              "RelativeToolTip": "Nashoca\\Models\\VerbTrItem.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "VerbTr.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\VerbTr.cs",
+              "RelativeDocumentMoniker": "Nashoca\\Models\\VerbTr.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\VerbTr.cs",
+              "RelativeToolTip": "Nashoca\\Models\\VerbTr.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T10:09:04.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NounTrItem.cs",
-              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\NounTrItem.cs",
-              "RelativeDocumentMoniker": "Nashoca\\Models\\NounTrItem.cs",
-              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\NounTrItem.cs",
-              "RelativeToolTip": "Nashoca\\Models\\NounTrItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T09:54:42.346Z",
               "EditorCaption": ""
             }
           ]
