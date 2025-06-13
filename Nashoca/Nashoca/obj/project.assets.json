@@ -15,6 +15,36 @@
           }
         }
       },
+      "MediatR/12.5.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR.Contracts": "[2.0.1, 3.0.0)",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net6.0/MediatR.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
         "type": "package",
         "compile": {
@@ -915,6 +945,46 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "Nashoca.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MediatR": "12.5.0",
+          "Nashoca.Domain": "1.0.0",
+          "Nashoca.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nashoca.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nashoca.Application.dll": {}
+        }
+      },
+      "Nashoca.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Nashoca.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nashoca.Domain.dll": {}
+        }
+      },
+      "Nashoca.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.17",
+          "Nashoca.Domain": "1.0.0",
+          "Pomelo.EntityFrameworkCore.MySql": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Nashoca.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nashoca.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -935,6 +1005,37 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "MediatR/12.5.0": {
+      "sha512": "vqm2H8/nqL5NAJHPhsG1JOPwfkmbVrPyh4svdoRzu+uZh6Ex7PRoHBGsLYC0/RWCEJFqD1ohHNpteQvql9OktA==",
+      "type": "package",
+      "path": "mediatr/12.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "gradient_128x128.png",
+        "lib/net6.0/MediatR.dll",
+        "lib/net6.0/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "mediatr.12.5.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Contracts/2.0.1": {
+      "sha512": "FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "type": "package",
+      "path": "mediatr.contracts/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.0/MediatR.Contracts.dll",
+        "lib/netstandard2.0/MediatR.Contracts.xml",
+        "mediatr.contracts.2.0.1.nupkg.sha512",
+        "mediatr.contracts.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
@@ -2577,12 +2678,31 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Nashoca.Application/1.0.0": {
+      "type": "project",
+      "path": "../Nashoca.Application/Nashoca.Application.csproj",
+      "msbuildProject": "../Nashoca.Application/Nashoca.Application.csproj"
+    },
+    "Nashoca.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Nashoca.Domain/Nashoca.Domain.csproj",
+      "msbuildProject": "../Nashoca.Domain/Nashoca.Domain.csproj"
+    },
+    "Nashoca.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Nashoca.Infrastructure/Nashoca.Infrastructure.csproj",
+      "msbuildProject": "../Nashoca.Infrastructure/Nashoca.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "MediatR >= 12.5.0",
       "Microsoft.EntityFrameworkCore >= 8.0.17",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.17",
+      "Nashoca.Application >= 1.0.0",
+      "Nashoca.Domain >= 1.0.0",
+      "Nashoca.Infrastructure >= 1.0.0",
       "Pomelo.EntityFrameworkCore.MySql >= 8.0.3",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
@@ -2594,9 +2714,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Nashoca.csproj",
-      "projectName": "Nashoca",
-      "projectPath": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Nashoca.csproj",
+      "projectUniqueName": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Nashoca.Api.csproj",
+      "projectName": "Nashoca.Api",
+      "projectPath": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Nashoca.Api.csproj",
       "packagesPath": "C:\\Users\\PWieczorek\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\obj\\",
       "projectStyle": "PackageReference",
@@ -2619,7 +2739,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.Application\\Nashoca.Application.csproj": {
+              "projectPath": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.Application\\Nashoca.Application.csproj"
+            },
+            "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.Domain\\Nashoca.Domain.csproj": {
+              "projectPath": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.Domain\\Nashoca.Domain.csproj"
+            },
+            "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.Infrastructure\\Nashoca.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.Infrastructure\\Nashoca.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -2638,6 +2768,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[12.5.0, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.17, )"

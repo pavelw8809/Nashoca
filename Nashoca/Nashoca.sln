@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1 d17.14
+VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nashoca", "Nashoca\Nashoca.csproj", "{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nashoca.Api", "Nashoca\Nashoca.Api.csproj", "{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nashoca.Application", "Nashoca.Application\Nashoca.Application.csproj", "{0CD435FC-4631-461C-BEBC-10715FF15523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nashoca.Domain", "Nashoca.Domain\Nashoca.Domain.csproj", "{EE8DF604-3AE5-4910-9F76-454259CAC7AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nashoca.Infrastructure", "Nashoca.Infrastructure\Nashoca.Infrastructure.csproj", "{7882D666-C5A1-43B0-BC38-D6DCAC188679}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD435FC-4631-461C-BEBC-10715FF15523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD435FC-4631-461C-BEBC-10715FF15523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD435FC-4631-461C-BEBC-10715FF15523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD435FC-4631-461C-BEBC-10715FF15523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE8DF604-3AE5-4910-9F76-454259CAC7AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE8DF604-3AE5-4910-9F76-454259CAC7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE8DF604-3AE5-4910-9F76-454259CAC7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE8DF604-3AE5-4910-9F76-454259CAC7AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7882D666-C5A1-43B0-BC38-D6DCAC188679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7882D666-C5A1-43B0-BC38-D6DCAC188679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7882D666-C5A1-43B0-BC38-D6DCAC188679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7882D666-C5A1-43B0-BC38-D6DCAC188679}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
