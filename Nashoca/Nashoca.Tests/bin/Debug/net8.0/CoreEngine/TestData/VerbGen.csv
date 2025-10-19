@@ -1,0 +1,769 @@
+﻿VerbNo,FormNo,FormCode,PersonNo,IsNegation,IsPlural,IsQuestion,Form,Suffixes,Eng,EngSh
+0,101,ZIET-0-0101,1,false,false,false,ziyaret ediyorum,,I am visiting,I'm visiting
+0,102,ZIET-0-0102,2,false,false,false,ziyaret ediyorsun,,you are visiting,you're visiting
+0,103,ZIET-0-0103,3,false,false,false,ziyaret ediyor,,he is visiting,he is visiting
+0,104,ZIET-0-0104,3,false,false,false,ziyaret ediyor,,she is visiting,
+0,105,ZIET-0-0105,3,false,false,false,ziyaret ediyor,,it is visiting
+0,106,ZIET-0-0106,1,false,true,false,ziyaret ediyoruz,,we are visiting
+0,107,ZIET-0-0107,2,false,true,false,ziyaret ediyorsunuz,,you are visiting
+0,108,ZIET-0-0108,3,false,true,false,ziyaret ediyorlar,,they are visiting
+0,111,ZIET-0-0111,1,true,false,false,ziyaret etmiyorum,,I am not visiting
+0,112,ZIET-0-0112,2,true,false,false,ziyaret etmiyorsun,,you are not visiting
+0,113,ZIET-0-0113,3,true,false,false,ziyaret etmiyor,,he is not visiting
+0,114,ZIET-0-0114,3,true,false,false,ziyaret etmiyor,,she is not visiting
+0,115,ZIET-0-0115,3,true,false,false,ziyaret etmiyor,,it is not visiting
+0,116,ZIET-0-0116,1,true,true,false,ziyaret etmiyoruz,,we are not visiting
+0,117,ZIET-0-0117,2,true,true,false,ziyaret etmiyorsunuz,,you are not visiting
+0,118,ZIET-0-0118,3,true,true,false,ziyaret etmiyorlar,,they are not visiting
+0,121,ZIET-0-0121,1,false,false,true,ziyaret ediyor muyum,,am I visiting
+0,122,ZIET-0-0122,2,false,false,true,ziyaret ediyor musun,,are you visiting
+0,123,ZIET-0-0123,3,false,false,true,ziyaret ediyor mu,,is he visiting
+0,124,ZIET-0-0124,3,false,false,true,ziyaret ediyor mu,,is she visiting
+0,125,ZIET-0-0125,3,false,false,true,ziyaret ediyor mu,,is it visiting
+0,126,ZIET-0-0126,1,false,true,true,ziyaret ediyor muyuz,,are we visiting
+0,127,ZIET-0-0127,2,false,true,true,ziyaret ediyor musunuz,,are you visiting
+0,128,ZIET-0-0128,3,false,true,true,ziyaret ediyorlar mı,,are they visiting
+0,131,ZIET-0-0131,1,true,false,true,ziyaret etmiyor muyum,,am I not visiting
+0,132,ZIET-0-0132,2,true,false,true,ziyaret etmiyor musun,,are you not visiting
+0,133,ZIET-0-0133,3,true,false,true,ziyaret etmiyor mu,,is he not visiting
+0,134,ZIET-0-0134,3,true,false,true,ziyaret etmiyor mu,,is she not visiting
+0,135,ZIET-0-0135,3,true,false,true,ziyaret etmiyor mu,,is it not visiting
+0,136,ZIET-0-0136,1,true,true,true,ziyaret etmiyor muyuz,,are we not visiting
+0,137,ZIET-0-0137,2,true,true,true,ziyaret etmiyor musunuz,,are you not visiting
+0,138,ZIET-0-0138,3,true,true,true,ziyaret etmiyorlar mı,,are they not visiting
+1,101,BILM-1-0101,1,false,false,false,biliyorum,,I know
+1,102,BILM-1-0102,2,false,false,false,biliyorsun,,you know
+1,103,BILM-1-0103,3,false,false,false,biliyor,,he knows
+1,104,BILM-1-0104,3,false,false,false,biliyor,,she knows
+1,105,BILM-1-0105,3,false,false,false,biliyor,,it knows
+1,106,BILM-1-0106,1,false,true,false,biliyoruz,,we know
+1,107,BILM-1-0107,2,false,true,false,biliyorsunuz,,you know
+1,108,BILM-1-0108,3,false,true,false,biliyorlar,,they know
+1,111,BILM-1-0111,1,true,false,false,bilmiyorum,,I do not know
+1,112,BILM-1-0112,2,true,false,false,bilmiyorsun,,you do not know
+1,113,BILM-1-0113,3,true,false,false,bilmiyor,,he does not know
+1,114,BILM-1-0114,3,true,false,false,bilmiyor,,she does not know
+1,115,BILM-1-0115,3,true,false,false,bilmiyor,,it does not know
+1,116,BILM-1-0116,1,true,true,false,bilmiyoruz,,we do not know
+1,117,BILM-1-0117,2,true,true,false,bilmiyorsunuz,,you do not know
+1,118,BILM-1-0118,3,true,true,false,bilmiyorlar,,they do not know
+1,121,BILM-1-0121,1,false,false,true,biliyor muyum,,do I know
+1,122,BILM-1-0122,2,false,false,true,biliyor musun,,do you know
+1,123,BILM-1-0123,3,false,false,true,biliyor mu,,does he know
+1,124,BILM-1-0124,3,false,false,true,biliyor mu,,does she know
+1,125,BILM-1-0125,3,false,false,true,biliyor mu,,does it know
+1,126,BILM-1-0126,1,false,true,true,biliyor muyuz,,do we know
+1,127,BILM-1-0127,2,false,true,true,biliyor musunuz,,do you know
+1,128,BILM-1-0128,3,false,true,true,biliyorlar mı,,do they know
+1,131,BILM-1-0131,1,true,false,true,bilmiyor muyum,,do I not know
+1,132,BILM-1-0132,2,true,false,true,bilmiyor musun,,do you not know
+1,133,BILM-1-0133,3,true,false,true,bilmiyor mu,,does he not know
+1,134,BILM-1-0134,3,true,false,true,bilmiyor mu,,does she not know
+1,135,BILM-1-0135,3,true,false,true,bilmiyor mu,,does it not know
+1,136,BILM-1-0136,1,true,true,true,bilmiyor muyuz,,do we not know
+1,137,BILM-1-0137,2,true,true,true,bilmiyor musunuz,,do you not know
+1,138,BILM-1-0138,3,true,true,true,bilmiyorlar mı,,do they not know
+2,101,OLME-2-0101,1,false,false,false,ölüyorum,,I am dying
+2,102,OLME-2-0102,2,false,false,false,ölüyorsun,,you are dying
+2,103,OLME-2-0103,3,false,false,false,ölüyor,,he is dying
+2,104,OLME-2-0104,3,false,false,false,ölüyor,,she is dying
+2,105,OLME-2-0105,3,false,false,false,ölüyor,,it is dying
+2,106,OLME-2-0106,1,false,true,false,ölüyoruz,,we are dying
+2,107,OLME-2-0107,2,false,true,false,ölüyorsunuz,,you are dying
+2,108,OLME-2-0108,3,false,true,false,ölüyorlar,,they are dying
+2,111,OLME-2-0111,1,true,false,false,ölmüyorum,,I am not dying
+2,112,OLME-2-0112,2,true,false,false,ölmüyorsun,,you are not dying
+2,113,OLME-2-0113,3,true,false,false,ölmüyor,,he is not dying
+2,114,OLME-2-0114,3,true,false,false,ölmüyor,,she is not dying
+2,115,OLME-2-0115,3,true,false,false,ölmüyor,,it is not dying
+2,116,OLME-2-0116,1,true,true,false,ölmüyoruz,,we are not dying
+2,117,OLME-2-0117,2,true,true,false,ölmüyorsunuz,,you are not dying
+2,118,OLME-2-0118,3,true,true,false,ölmüyorlar,,they are not dying
+2,121,OLME-2-0121,1,false,false,true,ölüyor muyum,,am I dying
+2,122,OLME-2-0122,2,false,false,true,ölüyor musun,,are you dying
+2,123,OLME-2-0123,3,false,false,true,ölüyor mu,,is he dying
+2,124,OLME-2-0124,3,false,false,true,ölüyor mu,,is she dying
+2,125,OLME-2-0125,3,false,false,true,ölüyor mu,,is it dying
+2,126,OLME-2-0126,1,false,true,true,ölüyor muyuz,,are we dying
+2,127,OLME-2-0127,2,false,true,true,ölüyor musunuz,,are you dying
+2,128,OLME-2-0128,3,false,true,true,ölüyorlar mı,,are they dying
+2,131,OLME-2-0131,1,true,false,true,ölmüyor muyum,,am I not dying
+2,132,OLME-2-0132,2,true,false,true,ölmüyor musun,,are you not dying
+2,133,OLME-2-0133,3,true,false,true,ölmüyor mu,,is he not dying
+2,134,OLME-2-0134,3,true,false,true,ölmüyor mu,,is she not dying
+2,135,OLME-2-0135,3,true,false,true,ölmüyor mu,,is it not dying
+2,136,OLME-2-0136,1,true,true,true,ölmüyor muyuz,,are we not dying
+2,137,OLME-2-0137,2,true,true,true,ölmüyor musunuz,,are you not dying
+2,138,OLME-2-0138,3,true,true,true,ölmüyorlar mı,,are they not dying
+3,101,ANLA-3-0101,1,false,false,false,anlıyorum,,I understand
+3,102,ANLA-3-0102,2,false,false,false,anlıyorsun,,you understand
+3,103,ANLA-3-0103,3,false,false,false,anlıyor,,he understands
+3,104,ANLA-3-0104,3,false,false,false,anlıyor,,she understands
+3,105,ANLA-3-0105,3,false,false,false,anlıyor,,it understands
+3,106,ANLA-3-0106,1,false,true,false,anlıyoruz,,we understand
+3,107,ANLA-3-0107,2,false,true,false,anlıyorsunuz,,you understand
+3,108,ANLA-3-0108,3,false,true,false,anlıyorlar,,they understand
+3,111,ANLA-3-0111,1,true,false,false,anlamıyorum,,I do not understand
+3,112,ANLA-3-0112,2,true,false,false,anlamıyorsun,,you do not understand
+3,113,ANLA-3-0113,3,true,false,false,anlamıyor,,he does not understand
+3,114,ANLA-3-0114,3,true,false,false,anlamıyor,,she does not understand
+3,115,ANLA-3-0115,3,true,false,false,anlamıyor,,it does not understand
+3,116,ANLA-3-0116,1,true,true,false,anlamıyoruz,,we do not understand
+3,117,ANLA-3-0117,2,true,true,false,anlamıyorsunuz,,you do not understand
+3,118,ANLA-3-0118,3,true,true,false,anlamıyorlar,,they do not understand
+3,121,ANLA-3-0121,1,false,false,true,anlıyor muyum,,do I understand
+3,122,ANLA-3-0122,2,false,false,true,anlıyor musun,,do you understand
+3,123,ANLA-3-0123,3,false,false,true,anlıyor mu,,does he understand
+3,124,ANLA-3-0124,3,false,false,true,anlıyor mu,,does she understand
+3,125,ANLA-3-0125,3,false,false,true,anlıyor mu,,does it understand
+3,126,ANLA-3-0126,1,false,true,true,anlıyor muyuz,,do we understand
+3,127,ANLA-3-0127,2,false,true,true,anlıyor musunuz,,do you understand
+3,128,ANLA-3-0128,3,false,true,true,anlıyorlar mı,,do they understand
+3,131,ANLA-3-0131,1,true,false,true,anlamıyor muyum,,do I not understand
+3,132,ANLA-3-0132,2,true,false,true,anlamıyor musun,,do you not understand
+3,133,ANLA-3-0133,3,true,false,true,anlamıyor mu,,does he not understand
+3,134,ANLA-3-0134,3,true,false,true,anlamıyor mu,,does she not understand
+3,135,ANLA-3-0135,3,true,false,true,anlamıyor mu,,does it not understand
+3,136,ANLA-3-0136,1,true,true,true,anlamıyor muyuz,,do we not understand
+3,137,ANLA-3-0137,2,true,true,true,anlamıyor musunuz,,do you not understand
+3,138,ANLA-3-0138,3,true,true,true,anlamıyorlar mı,,do they not understand
+0,201,ZIET-0-0201,1,false,false,false,ziyaret ederim,,I visit
+0,202,ZIET-0-0202,2,false,false,false,ziyaret edersin,,you visit
+0,203,ZIET-0-0203,3,false,false,false,ziyaret eder,,he visits
+0,204,ZIET-0-0204,3,false,false,false,ziyaret eder,,she visits
+0,205,ZIET-0-0205,3,false,false,false,ziyaret eder,,it visits
+0,206,ZIET-0-0206,1,false,true,false,ziyaret ederiz,,we visit
+0,207,ZIET-0-0207,2,false,true,false,ziyaret edersiniz,,you visit
+0,208,ZIET-0-0208,3,false,true,false,ziyaret ederler,,they visit
+0,211,ZIET-0-0211,1,true,false,false,ziyaret etmem,,I do not visit
+0,212,ZIET-0-0212,2,true,false,false,ziyaret etmezsin,,you do not visit
+0,213,ZIET-0-0213,3,true,false,false,ziyaret etmez,,he does not visit
+0,214,ZIET-0-0214,3,true,false,false,ziyaret etmez,,she does not visit
+0,215,ZIET-0-0215,3,true,false,false,ziyaret etmez,,it does not visit
+0,216,ZIET-0-0216,1,true,true,false,ziyaret etmeyiz,,we do not visit
+0,217,ZIET-0-0217,2,true,true,false,ziyaret etmezsiniz,,you do not visit
+0,218,ZIET-0-0218,3,true,true,false,ziyaret etmezler,,they do not visit
+0,221,ZIET-0-0221,1,false,false,true,ziyaret eder miyim,,do I visit
+0,222,ZIET-0-0222,2,false,false,true,ziyaret eder misin,,do you visit
+0,223,ZIET-0-0223,3,false,false,true,ziyaret eder mi,,does he visit
+0,224,ZIET-0-0224,3,false,false,true,ziyaret eder mi,,does she visit
+0,225,ZIET-0-0225,3,false,false,true,ziyaret eder mi,,does it visit
+0,226,ZIET-0-0226,1,false,true,true,ziyaret eder miyiz,,do we visit
+0,227,ZIET-0-0227,2,false,true,true,ziyaret eder misiniz,,do you visit
+0,228,ZIET-0-0228,3,false,true,true,ziyaret ederler mi,,do they visit
+0,231,ZIET-0-0231,1,true,false,true,ziyaret etmez miyim,,do I not visit
+0,232,ZIET-0-0232,2,true,false,true,ziyaret etmez misin,,do you not visit
+0,233,ZIET-0-0233,3,true,false,true,ziyaret etmez mi,,does he not visit
+0,234,ZIET-0-0234,3,true,false,true,ziyaret etmez mi,,does she not visit
+0,235,ZIET-0-0235,3,true,false,true,ziyaret etmez mi,,does it not visit
+0,236,ZIET-0-0236,1,true,true,true,ziyaret etmez miyiz,,do we not visit
+0,237,ZIET-0-0237,2,true,true,true,ziyaret etmez misiniz,,do you not visit
+0,238,ZIET-0-0238,3,true,true,true,ziyaret etmezler mi,,do they not visit
+1,201,BILM-1-0201,1,false,false,false,bilirim,,I know
+1,202,BILM-1-0202,2,false,false,false,bilirsin,,you know
+1,203,BILM-1-0203,3,false,false,false,bilir,,he knows
+1,204,BILM-1-0204,3,false,false,false,bilir,,she knows
+1,205,BILM-1-0205,3,false,false,false,bilir,,it knows
+1,206,BILM-1-0206,1,false,true,false,biliriz,,we know
+1,207,BILM-1-0207,2,false,true,false,bilirsiniz,,you know
+1,208,BILM-1-0208,3,false,true,false,bilirler,,they know
+1,211,BILM-1-0211,1,true,false,false,bilmem,,I do not know
+1,212,BILM-1-0212,2,true,false,false,bilmezsin,,you do not know
+1,213,BILM-1-0213,3,true,false,false,bilmez,,he does not know
+1,214,BILM-1-0214,3,true,false,false,bilmez,,she does not know
+1,215,BILM-1-0215,3,true,false,false,bilmez,,it does not know
+1,216,BILM-1-0216,1,true,true,false,bilmeyiz,,we do not know
+1,217,BILM-1-0217,2,true,true,false,bilmezsiniz,,you do not know
+1,218,BILM-1-0218,3,true,true,false,bilmezler,,they do not know
+1,221,BILM-1-0221,1,false,false,true,bilir miyim,,do I know
+1,222,BILM-1-0222,2,false,false,true,bilir misin,,do you know
+1,223,BILM-1-0223,3,false,false,true,bilir mi,,does he know
+1,224,BILM-1-0224,3,false,false,true,bilir mi,,does she know
+1,225,BILM-1-0225,3,false,false,true,bilir mi,,does it know
+1,226,BILM-1-0226,1,false,true,true,bilir miyiz,,do we know
+1,227,BILM-1-0227,2,false,true,true,bilir misiniz,,do you know
+1,228,BILM-1-0228,3,false,true,true,bilirler mi,,do they know
+1,231,BILM-1-0231,1,true,false,true,bilmez miyim,,do I not know
+1,232,BILM-1-0232,2,true,false,true,bilmez misin,,do you not know
+1,233,BILM-1-0233,3,true,false,true,bilmez mi,,does he not know
+1,234,BILM-1-0234,3,true,false,true,bilmez mi,,does she not know
+1,235,BILM-1-0235,3,true,false,true,bilmez mi,,does it not know
+1,236,BILM-1-0236,1,true,true,true,bilmez miyiz,,do we not know
+1,237,BILM-1-0237,2,true,true,true,bilmez misiniz,,do you not know
+1,238,BILM-1-0238,3,true,true,true,bilmezler mi,,do they not know
+2,201,OLME-2-0201,1,false,false,false,ölürüm,,I die
+2,202,OLME-2-0202,2,false,false,false,ölürsün,,you die
+2,203,OLME-2-0203,3,false,false,false,ölür,,he dies
+2,204,OLME-2-0204,3,false,false,false,ölür,,she dies
+2,205,OLME-2-0205,3,false,false,false,ölür,,it dies
+2,206,OLME-2-0206,1,false,true,false,ölürüz,,we die
+2,207,OLME-2-0207,2,false,true,false,ölürsünüz,,you die
+2,208,OLME-2-0208,3,false,true,false,ölürler,,they die
+2,211,OLME-2-0211,1,true,false,false,ölmem,,I do not die
+2,212,OLME-2-0212,2,true,false,false,ölmezsin,,you do not die
+2,213,OLME-2-0213,3,true,false,false,ölmez,,he does not die
+2,214,OLME-2-0214,3,true,false,false,ölmez,,she does not die
+2,215,OLME-2-0215,3,true,false,false,ölmez,,it does not die
+2,216,OLME-2-0216,1,true,true,false,ölmeyiz,,we do not die
+2,217,OLME-2-0217,2,true,true,false,ölmezsiniz,,you do not die
+2,218,OLME-2-0218,3,true,true,false,ölmezler,,they do not die
+2,221,OLME-2-0221,1,false,false,true,ölür müyüm,,do I die
+2,222,OLME-2-0222,2,false,false,true,ölür müsün,,do you die
+2,223,OLME-2-0223,3,false,false,true,ölür mü,,does he die
+2,224,OLME-2-0224,3,false,false,true,ölür mü,,does she die
+2,225,OLME-2-0225,3,false,false,true,ölür mü,,does it die
+2,226,OLME-2-0226,1,false,true,true,ölür müyüz,,do we die
+2,227,OLME-2-0227,2,false,true,true,ölür müsünüz,,do you die
+2,228,OLME-2-0228,3,false,true,true,ölürler mi,,do they die
+2,231,OLME-2-0231,1,true,false,true,ölmez miyim,,do I not die
+2,232,OLME-2-0232,2,true,false,true,ölmez misin,,do you not die
+2,233,OLME-2-0233,3,true,false,true,ölmez mi,,does he not die
+2,234,OLME-2-0234,3,true,false,true,ölmez mi,,does she not die
+2,235,OLME-2-0235,3,true,false,true,ölmez mi,,does it not die
+2,236,OLME-2-0236,1,true,true,true,ölmez miyiz,,do we not die
+2,237,OLME-2-0237,2,true,true,true,ölmez misiniz,,do you not die
+2,238,OLME-2-0238,3,true,true,true,ölmezler mi,,do they not die
+3,201,ANLA-3-0201,1,false,false,false,anlarım,,I understand
+3,202,ANLA-3-0202,2,false,false,false,anlarsın,,you understand
+3,203,ANLA-3-0203,3,false,false,false,anlar,,he understands
+3,204,ANLA-3-0204,3,false,false,false,anlar,,she understands
+3,205,ANLA-3-0205,3,false,false,false,anlar,,it understands
+3,206,ANLA-3-0206,1,false,true,false,anlarız,,we understand
+3,207,ANLA-3-0207,2,false,true,false,anlarsınız,,you understand
+3,208,ANLA-3-0208,3,false,true,false,anlarlar,,they understand
+3,211,ANLA-3-0211,1,true,false,false,anlamam,,I do not understand
+3,212,ANLA-3-0212,2,true,false,false,anlamazsın,,you do not understand
+3,213,ANLA-3-0213,3,true,false,false,anlamaz,,he does not understand
+3,214,ANLA-3-0214,3,true,false,false,anlamaz,,she does not understand
+3,215,ANLA-3-0215,3,true,false,false,anlamaz,,it does not understand
+3,216,ANLA-3-0216,1,true,true,false,anlamayız,,we do not understand
+3,217,ANLA-3-0217,2,true,true,false,anlamazsınız,,you do not understand
+3,218,ANLA-3-0218,3,true,true,false,anlamazlar,,they do not understand
+3,221,ANLA-3-0221,1,false,false,true,anlar mıyım,,do I understand
+3,222,ANLA-3-0222,2,false,false,true,anlar mısın,,do you understand
+3,223,ANLA-3-0223,3,false,false,true,anlar mı,,does he understand
+3,224,ANLA-3-0224,3,false,false,true,anlar mı,,does she understand
+3,225,ANLA-3-0225,3,false,false,true,anlar mı,,does it understand
+3,226,ANLA-3-0226,1,false,true,true,anlar mıyız,,do we understand
+3,227,ANLA-3-0227,2,false,true,true,anlar mısınız,,do you understand
+3,228,ANLA-3-0228,3,false,true,true,anlarlar mı,,do they understand
+3,231,ANLA-3-0231,1,true,false,true,anlamaz mıyım,,do I not understand
+3,232,ANLA-3-0232,2,true,false,true,anlamaz mısın,,do you not understand
+3,233,ANLA-3-0233,3,true,false,true,anlamaz mı,,does he not understand
+3,234,ANLA-3-0234,3,true,false,true,anlamaz mı,,does she not understand
+3,235,ANLA-3-0235,3,true,false,true,anlamaz mı,,does it not understand
+3,236,ANLA-3-0236,1,true,true,true,anlamaz mıyız,,do we not understand
+3,237,ANLA-3-0237,2,true,true,true,anlamaz mısınız,,do you not understand
+3,238,ANLA-3-0238,3,true,true,true,anlamazlar mı,,do they not understand
+0,301,ZIET-0-0301,1,false,false,false,ziyaret ettim,,I visited
+0,302,ZIET-0-0302,2,false,false,false,ziyaret ettin,,you visited
+0,303,ZIET-0-0303,3,false,false,false,ziyaret etti,,he visited
+0,304,ZIET-0-0304,3,false,false,false,ziyaret etti,,she visited
+0,305,ZIET-0-0305,3,false,false,false,ziyaret etti,,it visited
+0,306,ZIET-0-0306,1,false,true,false,ziyaret ettik,,we visited
+0,307,ZIET-0-0307,2,false,true,false,ziyaret ettiniz,,you visited
+0,308,ZIET-0-0308,3,false,true,false,ziyaret ettiler,,they visited
+0,311,ZIET-0-0311,1,true,false,false,ziyaret etmedim,,I did not visit
+0,312,ZIET-0-0312,2,true,false,false,ziyaret etmedin,,you did not visit
+0,313,ZIET-0-0313,3,true,false,false,ziyaret etmedi,,he did not visit
+0,314,ZIET-0-0314,3,true,false,false,ziyaret etmedi,,she did not visit
+0,315,ZIET-0-0315,3,true,false,false,ziyaret etmedi,,it did not visit
+0,316,ZIET-0-0316,1,true,true,false,ziyaret etmedik,,we did not visit
+0,317,ZIET-0-0317,2,true,true,false,ziyaret etmediniz,,you did not visit
+0,318,ZIET-0-0318,3,true,true,false,ziyaret etmediler,,they did not visit
+0,321,ZIET-0-0321,1,false,false,true,ziyaret ettim mi,,did I visit
+0,322,ZIET-0-0322,2,false,false,true,ziyaret ettin mi,,did you visit
+0,323,ZIET-0-0323,3,false,false,true,ziyaret etti mi,,did he visit
+0,324,ZIET-0-0324,3,false,false,true,ziyaret etti mi,,did she visit
+0,325,ZIET-0-0325,3,false,false,true,ziyaret etti mi,,did it visit
+0,326,ZIET-0-0326,1,false,true,true,ziyaret ettik mi,,did we visit
+0,327,ZIET-0-0327,2,false,true,true,ziyaret ettiniz mi,,did you visit
+0,328,ZIET-0-0328,3,false,true,true,ziyaret ettiler mi,,did they visit
+0,331,ZIET-0-0331,1,true,false,true,ziyaret etmedim mi,,did I not visit
+0,332,ZIET-0-0332,2,true,false,true,ziyaret etmedin mi,,did you not visit
+0,333,ZIET-0-0333,3,true,false,true,ziyaret etmedi mi,,did he not visit
+0,334,ZIET-0-0334,3,true,false,true,ziyaret etmedi mi,,did she not visit
+0,335,ZIET-0-0335,3,true,false,true,ziyaret etmedi mi,,did it not visit
+0,336,ZIET-0-0336,1,true,true,true,ziyaret etmedik mi,,did we not visit
+0,337,ZIET-0-0337,2,true,true,true,ziyaret etmediniz mi,,did you not visit
+0,338,ZIET-0-0338,3,true,true,true,ziyaret etmediler mi,,did they not visit
+1,301,BILM-1-0301,1,false,false,false,bildim,,I knew
+1,302,BILM-1-0302,2,false,false,false,bildin,,you knew
+1,303,BILM-1-0303,3,false,false,false,bildi,,he knew
+1,304,BILM-1-0304,3,false,false,false,bildi,,she knew
+1,305,BILM-1-0305,3,false,false,false,bildi,,it knew
+1,306,BILM-1-0306,1,false,true,false,bildik,,we knew
+1,307,BILM-1-0307,2,false,true,false,bildiniz,,you knew
+1,308,BILM-1-0308,3,false,true,false,bildiler,,they knew
+1,311,BILM-1-0311,1,true,false,false,bilmedim,,I did not know
+1,312,BILM-1-0312,2,true,false,false,bilmedin,,you did not know
+1,313,BILM-1-0313,3,true,false,false,bilmedi,,he did not know
+1,314,BILM-1-0314,3,true,false,false,bilmedi,,she did not know
+1,315,BILM-1-0315,3,true,false,false,bilmedi,,it did not know
+1,316,BILM-1-0316,1,true,true,false,bilmedik,,we did not know
+1,317,BILM-1-0317,2,true,true,false,bilmediniz,,you did not know
+1,318,BILM-1-0318,3,true,true,false,bilmediler,,they did not know
+1,321,BILM-1-0321,1,false,false,true,bildim mi,,did I know
+1,322,BILM-1-0322,2,false,false,true,bildin mi,,did you know
+1,323,BILM-1-0323,3,false,false,true,bildi mi,,did he know
+1,324,BILM-1-0324,3,false,false,true,bildi mi,,did she know
+1,325,BILM-1-0325,3,false,false,true,bildi mi,,did it know
+1,326,BILM-1-0326,1,false,true,true,bildik mi,,did we know
+1,327,BILM-1-0327,2,false,true,true,bildiniz mi,,did you know
+1,328,BILM-1-0328,3,false,true,true,bildiler mi,,did they know
+1,331,BILM-1-0331,1,true,false,true,bilmedim mi,,did I not know
+1,332,BILM-1-0332,2,true,false,true,bilmedin mi,,did you not know
+1,333,BILM-1-0333,3,true,false,true,bilmedi mi,,did he not know
+1,334,BILM-1-0334,3,true,false,true,bilmedi mi,,did she not know
+1,335,BILM-1-0335,3,true,false,true,bilmedi mi,,did it not know
+1,336,BILM-1-0336,1,true,true,true,bilmedik mi,,did we not know
+1,337,BILM-1-0337,2,true,true,true,bilmediniz mi,,did you not know
+1,338,BILM-1-0338,3,true,true,true,bilmediler mi,,did they not know
+2,301,OLME-2-0301,1,false,false,false,öldüm,,I died
+2,302,OLME-2-0302,2,false,false,false,öldün,,you died
+2,303,OLME-2-0303,3,false,false,false,öldü,,he died
+2,304,OLME-2-0304,3,false,false,false,öldü,,she died
+2,305,OLME-2-0305,3,false,false,false,öldü,,it died
+2,306,OLME-2-0306,1,false,true,false,öldük,,we died
+2,307,OLME-2-0307,2,false,true,false,öldünüz,,you died
+2,308,OLME-2-0308,3,false,true,false,öldüler,,they died
+2,311,OLME-2-0311,1,true,false,false,ölmedim,,I did not die
+2,312,OLME-2-0312,2,true,false,false,ölmedin,,you did not die
+2,313,OLME-2-0313,3,true,false,false,ölmedi,,he did not die
+2,314,OLME-2-0314,3,true,false,false,ölmedi,,she did not die
+2,315,OLME-2-0315,3,true,false,false,ölmedi,,it did not die
+2,316,OLME-2-0316,1,true,true,false,ölmedik,,we did not die
+2,317,OLME-2-0317,2,true,true,false,ölmediniz,,you did not die
+2,318,OLME-2-0318,3,true,true,false,ölmediler,,they did not die
+2,321,OLME-2-0321,1,false,false,true,öldüm mü,,did I die
+2,322,OLME-2-0322,2,false,false,true,öldün mü,,did you die
+2,323,OLME-2-0323,3,false,false,true,öldü mü,,did he die
+2,324,OLME-2-0324,3,false,false,true,öldü mü,,did she die
+2,325,OLME-2-0325,3,false,false,true,öldü mü,,did it die
+2,326,OLME-2-0326,1,false,true,true,öldük mü,,did we die
+2,327,OLME-2-0327,2,false,true,true,öldünüz mü,,did you die
+2,328,OLME-2-0328,3,false,true,true,öldüler mi,,did they die
+2,331,OLME-2-0331,1,true,false,true,ölmedim mi,,did I not die
+2,332,OLME-2-0332,2,true,false,true,ölmedin mi,,did you not die
+2,333,OLME-2-0333,3,true,false,true,ölmedi mi,,did he not die
+2,334,OLME-2-0334,3,true,false,true,ölmedi mi,,did she not die
+2,335,OLME-2-0335,3,true,false,true,ölmedi mi,,did it not die
+2,336,OLME-2-0336,1,true,true,true,ölmedik mi,,did we not die
+2,337,OLME-2-0337,2,true,true,true,ölmediniz mi,,did you not die
+2,338,OLME-2-0338,3,true,true,true,ölmediler mi,,did they not die
+3,301,ANLA-3-0301,1,false,false,false,anladım,,I understood
+3,302,ANLA-3-0302,2,false,false,false,anladın,,you understood
+3,303,ANLA-3-0303,3,false,false,false,anladı,,he understood
+3,304,ANLA-3-0304,3,false,false,false,anladı,,she understood
+3,305,ANLA-3-0305,3,false,false,false,anladı,,it understood
+3,306,ANLA-3-0306,1,false,true,false,anladık,,we understood
+3,307,ANLA-3-0307,2,false,true,false,anladınız,,you understood
+3,308,ANLA-3-0308,3,false,true,false,anladılar,,they understood
+3,311,ANLA-3-0311,1,true,false,false,anlamadım,,I did not understand
+3,312,ANLA-3-0312,2,true,false,false,anlamadın,,you did not understand
+3,313,ANLA-3-0313,3,true,false,false,anlamadı,,he did not understand
+3,314,ANLA-3-0314,3,true,false,false,anlamadı,,she did not understand
+3,315,ANLA-3-0315,3,true,false,false,anlamadı,,it did not understand
+3,316,ANLA-3-0316,1,true,true,false,anlamadık,,we did not understand
+3,317,ANLA-3-0317,2,true,true,false,anlamadınız,,you did not understand
+3,318,ANLA-3-0318,3,true,true,false,anlamadılar,,they did not understand
+3,321,ANLA-3-0321,1,false,false,true,anladım mı,,did I understand
+3,322,ANLA-3-0322,2,false,false,true,anladın mı,,did you understand
+3,323,ANLA-3-0323,3,false,false,true,anladı mı,,did he understand
+3,324,ANLA-3-0324,3,false,false,true,anladı mı,,did she understand
+3,325,ANLA-3-0325,3,false,false,true,anladı mı,,did it understand
+3,326,ANLA-3-0326,1,false,true,true,anladık mı,,did we understand
+3,327,ANLA-3-0327,2,false,true,true,anladınız mı,,did you understand
+3,328,ANLA-3-0328,3,false,true,true,anladılar mı,,did they understand
+3,331,ANLA-3-0331,1,true,false,true,anlamadım mı,,did I not understand
+3,332,ANLA-3-0332,2,true,false,true,anlamadın mı,,did you not understand
+3,333,ANLA-3-0333,3,true,false,true,anlamadı mı,,did he not understand
+3,334,ANLA-3-0334,3,true,false,true,anlamadı mı,,did she not understand
+3,335,ANLA-3-0335,3,true,false,true,anlamadı mı,,did it not understand
+3,336,ANLA-3-0336,1,true,true,true,anlamadık mı,,did we not understand
+3,337,ANLA-3-0337,2,true,true,true,anlamadınız mı,,did you not understand
+3,338,ANLA-3-0338,3,true,true,true,anlamadılar mı,,did they not understand
+0,401,ZIET-0-0401,1,false,false,false,ziyaret etmişim,,I visited
+0,402,ZIET-0-0402,2,false,false,false,ziyaret etmişsin,,you visited
+0,403,ZIET-0-0403,3,false,false,false,ziyaret etmiş,,he visited
+0,404,ZIET-0-0404,3,false,false,false,ziyaret etmiş,,she visited
+0,405,ZIET-0-0405,3,false,false,false,ziyaret etmiş,,it visited
+0,406,ZIET-0-0406,1,false,true,false,ziyaret etmişiz,,we visited
+0,407,ZIET-0-0407,2,false,true,false,ziyaret etmişsiniz,,you visited
+0,408,ZIET-0-0408,3,false,true,false,ziyaret etmişler,,they visited
+0,411,ZIET-0-0411,1,true,false,false,ziyaret etmemişim,,I did not visit
+0,412,ZIET-0-0412,2,true,false,false,ziyaret etmemişsin,,you did not visit
+0,413,ZIET-0-0413,3,true,false,false,ziyaret etmemiş,,he did not visit
+0,414,ZIET-0-0414,3,true,false,false,ziyaret etmemiş,,she did not visit
+0,415,ZIET-0-0415,3,true,false,false,ziyaret etmemiş,,it did not visit
+0,416,ZIET-0-0416,1,true,true,false,ziyaret etmemişiz,,we did not visit
+0,417,ZIET-0-0417,2,true,true,false,ziyaret etmemişsiniz,,you did not visit
+0,418,ZIET-0-0418,3,true,true,false,ziyaret etmemişler,,they did not visit
+0,421,ZIET-0-0421,1,false,false,true,ziyaret etmiş miyim,,did I visit
+0,422,ZIET-0-0422,2,false,false,true,ziyaret etmiş misin,,did you visit
+0,423,ZIET-0-0423,3,false,false,true,ziyaret etmiş mi,,did he visit
+0,424,ZIET-0-0424,3,false,false,true,ziyaret etmiş mi,,did she visit
+0,425,ZIET-0-0425,3,false,false,true,ziyaret etmiş mi,,did it visit
+0,426,ZIET-0-0426,1,false,true,true,ziyaret etmiş miyiz,,did we visit
+0,427,ZIET-0-0427,2,false,true,true,ziyaret etmiş misiniz,,did you visit
+0,428,ZIET-0-0428,3,false,true,true,ziyaret etmişler mi,,did they visit
+0,431,ZIET-0-0431,1,true,false,true,ziyaret etmemiş miyim,,did I not visit
+0,432,ZIET-0-0432,2,true,false,true,ziyaret etmemiş misin,,did you not visit
+0,433,ZIET-0-0433,3,true,false,true,ziyaret etmemiş mi,,did he not visit
+0,434,ZIET-0-0434,3,true,false,true,ziyaret etmemiş mi,,did she not visit
+0,435,ZIET-0-0435,3,true,false,true,ziyaret etmemiş mi,,did it not visit
+0,436,ZIET-0-0436,1,true,true,true,ziyaret etmemiş miyiz,,did we not visit
+0,437,ZIET-0-0437,2,true,true,true,ziyaret etmemiş misiniz,,did you not visit
+0,438,ZIET-0-0438,3,true,true,true,ziyaret etmemişler mi,,did they not visit
+1,401,BILM-1-0401,1,false,false,false,bilmişim,,I knew
+1,402,BILM-1-0402,2,false,false,false,bilmişsin,,you knew
+1,403,BILM-1-0403,3,false,false,false,bilmiş,,he knew
+1,404,BILM-1-0404,3,false,false,false,bilmiş,,she knew
+1,405,BILM-1-0405,3,false,false,false,bilmiş,,it knew
+1,406,BILM-1-0406,1,false,true,false,bilmişiz,,we knew
+1,407,BILM-1-0407,2,false,true,false,bilmişsiniz,,you knew
+1,408,BILM-1-0408,3,false,true,false,bilmişler,,they knew
+1,411,BILM-1-0411,1,true,false,false,bilmemişim,,I did not know
+1,412,BILM-1-0412,2,true,false,false,bilmemişsin,,you did not know
+1,413,BILM-1-0413,3,true,false,false,bilmemiş,,he did not know
+1,414,BILM-1-0414,3,true,false,false,bilmemiş,,she did not know
+1,415,BILM-1-0415,3,true,false,false,bilmemiş,,it did not know
+1,416,BILM-1-0416,1,true,true,false,bilmemişiz,,we did not know
+1,417,BILM-1-0417,2,true,true,false,bilmemişsiniz,,you did not know
+1,418,BILM-1-0418,3,true,true,false,bilmemişler,,they did not know
+1,421,BILM-1-0421,1,false,false,true,bilmiş miyim,,did I know
+1,422,BILM-1-0422,2,false,false,true,bilmiş misin,,did you know
+1,423,BILM-1-0423,3,false,false,true,bilmiş mi,,did he know
+1,424,BILM-1-0424,3,false,false,true,bilmiş mi,,did she know
+1,425,BILM-1-0425,3,false,false,true,bilmiş mi,,did it know
+1,426,BILM-1-0426,1,false,true,true,bilmiş miyiz,,did we know
+1,427,BILM-1-0427,2,false,true,true,bilmiş misiniz,,did you know
+1,428,BILM-1-0428,3,false,true,true,bilmişler mi,,did they know
+1,431,BILM-1-0431,1,true,false,true,bilmemiş miyim,,did I not know
+1,432,BILM-1-0432,2,true,false,true,bilmemiş misin,,did you not know
+1,433,BILM-1-0433,3,true,false,true,bilmemiş mi,,did he not know
+1,434,BILM-1-0434,3,true,false,true,bilmemiş mi,,did she not know
+1,435,BILM-1-0435,3,true,false,true,bilmemiş mi,,did it not know
+1,436,BILM-1-0436,1,true,true,true,bilmemiş miyiz,,did we not know
+1,437,BILM-1-0437,2,true,true,true,bilmemiş misiniz,,did you not know
+1,438,BILM-1-0438,3,true,true,true,bilmemişler mi,,did they not know
+2,401,OLME-2-0401,1,false,false,false,ölmüşüm,,I died
+2,402,OLME-2-0402,2,false,false,false,ölmüşsün,,you died
+2,403,OLME-2-0403,3,false,false,false,ölmüş,,he died
+2,404,OLME-2-0404,3,false,false,false,ölmüş,,she died
+2,405,OLME-2-0405,3,false,false,false,ölmüş,,it died
+2,406,OLME-2-0406,1,false,true,false,ölmüşüz,,we died
+2,407,OLME-2-0407,2,false,true,false,ölmüşsünüz,,you died
+2,408,OLME-2-0408,3,false,true,false,ölmüşler,,they died
+2,411,OLME-2-0411,1,true,false,false,ölmemişim,,I did not die
+2,412,OLME-2-0412,2,true,false,false,ölmemişsin,,you did not die
+2,413,OLME-2-0413,3,true,false,false,ölmemiş,,he did not die
+2,414,OLME-2-0414,3,true,false,false,ölmemiş,,she did not die
+2,415,OLME-2-0415,3,true,false,false,ölmemiş,,it did not die
+2,416,OLME-2-0416,1,true,true,false,ölmemişiz,,we did not die
+2,417,OLME-2-0417,2,true,true,false,ölmemişsiniz,,you did not die
+2,418,OLME-2-0418,3,true,true,false,ölmemişler,,they did not die
+2,421,OLME-2-0421,1,false,false,true,ölmüş müyüm,,did I die
+2,422,OLME-2-0422,2,false,false,true,ölmüş müsün,,did you die
+2,423,OLME-2-0423,3,false,false,true,ölmüş mü,,did he die
+2,424,OLME-2-0424,3,false,false,true,ölmüş mü,,did she die
+2,425,OLME-2-0425,3,false,false,true,ölmüş mü,,did it die
+2,426,OLME-2-0426,1,false,true,true,ölmüş müyüz,,did we die
+2,427,OLME-2-0427,2,false,true,true,ölmüş müsünüz,,did you die
+2,428,OLME-2-0428,3,false,true,true,ölmüşler mi,,did they die
+2,431,OLME-2-0431,1,true,false,true,ölmemiş miyim,,did I not die
+2,432,OLME-2-0432,2,true,false,true,ölmemiş misin,,did you not die
+2,433,OLME-2-0433,3,true,false,true,ölmemiş mi,,did he not die
+2,434,OLME-2-0434,3,true,false,true,ölmemiş mi,,did she not die
+2,435,OLME-2-0435,3,true,false,true,ölmemiş mi,,did it not die
+2,436,OLME-2-0436,1,true,true,true,ölmemiş miyiz,,did we not die
+2,437,OLME-2-0437,2,true,true,true,ölmemiş misiniz,,did you not die
+2,438,OLME-2-0438,3,true,true,true,ölmemişler mi,,did they not die
+3,401,ANLA-3-0401,1,false,false,false,anlamışım,,I understood
+3,402,ANLA-3-0402,2,false,false,false,anlamışsın,,you understood
+3,403,ANLA-3-0403,3,false,false,false,anlamış,,he understood
+3,404,ANLA-3-0404,3,false,false,false,anlamış,,she understood
+3,405,ANLA-3-0405,3,false,false,false,anlamış,,it understood
+3,406,ANLA-3-0406,1,false,true,false,anlamışız,,we understood
+3,407,ANLA-3-0407,2,false,true,false,anlamışsınız,,you understood
+3,408,ANLA-3-0408,3,false,true,false,anlamışlar,,they understood
+3,411,ANLA-3-0411,1,true,false,false,anlamamışım,,I did not understand
+3,412,ANLA-3-0412,2,true,false,false,anlamamışsın,,you did not understand
+3,413,ANLA-3-0413,3,true,false,false,anlamamış,,he did not understand
+3,414,ANLA-3-0414,3,true,false,false,anlamamış,,she did not understand
+3,415,ANLA-3-0415,3,true,false,false,anlamamış,,it did not understand
+3,416,ANLA-3-0416,1,true,true,false,anlamamışız,,we did not understand
+3,417,ANLA-3-0417,2,true,true,false,anlamamışsınız,,you did not understand
+3,418,ANLA-3-0418,3,true,true,false,anlamamışlar,,they did not understand
+3,421,ANLA-3-0421,1,false,false,true,anlamış mıyım,,did I understand
+3,422,ANLA-3-0422,2,false,false,true,anlamış mısın,,did you understand
+3,423,ANLA-3-0423,3,false,false,true,anlamış mı,,did he understand
+3,424,ANLA-3-0424,3,false,false,true,anlamış mı,,did she understand
+3,425,ANLA-3-0425,3,false,false,true,anlamış mı,,did it understand
+3,426,ANLA-3-0426,1,false,true,true,anlamış mıyız,,did we understand
+3,427,ANLA-3-0427,2,false,true,true,anlamış mısınız,,did you understand
+3,428,ANLA-3-0428,3,false,true,true,anlamışlar mı,,did they understand
+3,431,ANLA-3-0431,1,true,false,true,anlamamış mıyım,,did I not understand
+3,432,ANLA-3-0432,2,true,false,true,anlamamış mısın,,did you not understand
+3,433,ANLA-3-0433,3,true,false,true,anlamamış mı,,did he not understand
+3,434,ANLA-3-0434,3,true,false,true,anlamamış mı,,did she not understand
+3,435,ANLA-3-0435,3,true,false,true,anlamamış mı,,did it not understand
+3,436,ANLA-3-0436,1,true,true,true,anlamamış mıyız,,did we not understand
+3,437,ANLA-3-0437,2,true,true,true,anlamamış mısınız,,did you not understand
+3,438,ANLA-3-0438,3,true,true,true,anlamamışlar mı,,did they not understand
+0,501,ZIET-0-0501,1,false,false,false,ziyaret edeceğim,,I will visit
+0,502,ZIET-0-0502,2,false,false,false,ziyaret edeceksin,,you will visit
+0,503,ZIET-0-0503,3,false,false,false,ziyaret edecek,,he will visit
+0,504,ZIET-0-0504,3,false,false,false,ziyaret edecek,,she will visit
+0,505,ZIET-0-0505,3,false,false,false,ziyaret edecek,,it will visit
+0,506,ZIET-0-0506,1,false,true,false,ziyaret edeceğiz,,we will visit
+0,507,ZIET-0-0507,2,false,true,false,ziyaret edeceksiniz,,you will visit
+0,508,ZIET-0-0508,3,false,true,false,ziyaret edecekler,,they will visit
+0,511,ZIET-0-0511,1,true,false,false,ziyaret etmeyeceğim,,I will not visit
+0,512,ZIET-0-0512,2,true,false,false,ziyaret etmeyeceksin,,you will not visit
+0,513,ZIET-0-0513,3,true,false,false,ziyaret etmeyecek,,he will not visit
+0,514,ZIET-0-0514,3,true,false,false,ziyaret etmeyecek,,she will not visit
+0,515,ZIET-0-0515,3,true,false,false,ziyaret etmeyecek,,it will not visit
+0,516,ZIET-0-0516,1,true,true,false,ziyaret etmeyeceğiz,,we will not visit
+0,517,ZIET-0-0517,2,true,true,false,ziyaret etmeyeceksiniz,,you will not visit
+0,518,ZIET-0-0518,3,true,true,false,ziyaret etmeyecekler,,they will not visit
+0,521,ZIET-0-0521,1,false,false,true,ziyaret edecek miyim,,will I visit
+0,522,ZIET-0-0522,2,false,false,true,ziyaret edecek misin,,will you visit
+0,523,ZIET-0-0523,3,false,false,true,ziyaret edecek mi,,will he visit
+0,524,ZIET-0-0524,3,false,false,true,ziyaret edecek mi,,will she visit
+0,525,ZIET-0-0525,3,false,false,true,ziyaret edecek mi,,will it visit
+0,526,ZIET-0-0526,1,false,true,true,ziyaret edecek miyiz,,will we visit
+0,527,ZIET-0-0527,2,false,true,true,ziyaret edecek misiniz,,will you visit
+0,528,ZIET-0-0528,3,false,true,true,ziyaret edecekler mi,,will they visit
+0,531,ZIET-0-0531,1,true,false,true,ziyaret etmeyecek miyim,,will I not visit
+0,532,ZIET-0-0532,2,true,false,true,ziyaret etmeyecek misin,,will you not visit
+0,533,ZIET-0-0533,3,true,false,true,ziyaret etmeyecek mi,,will he not visit
+0,534,ZIET-0-0534,3,true,false,true,ziyaret etmeyecek mi,,will she not visit
+0,535,ZIET-0-0535,3,true,false,true,ziyaret etmeyecek mi,,will they not visit
+0,536,ZIET-0-0536,1,true,true,true,ziyaret etmeyecek miyiz,,will we not visit
+0,537,ZIET-0-0537,2,true,true,true,ziyaret etmeyecek misiniz,,will you not visit
+0,538,ZIET-0-0538,3,true,true,true,ziyaret etmeyecekler mi,,will they not visit
+1,501,BILM-1-0501,1,false,false,false,bileceğim,,I will know
+1,502,BILM-1-0502,2,false,false,false,bileceksin,,you will know
+1,503,BILM-1-0503,3,false,false,false,bilecek,,he will know
+1,504,BILM-1-0504,3,false,false,false,bilecek,,she will know
+1,505,BILM-1-0505,3,false,false,false,bilecek,,it will know
+1,506,BILM-1-0506,1,false,true,false,bileceğiz,,we will know
+1,507,BILM-1-0507,2,false,true,false,bileceksiniz,,you will know
+1,508,BILM-1-0508,3,false,true,false,bilecekler,,they will know
+1,511,BILM-1-0511,1,true,false,false,bilmeyeceğim,,I will not know
+1,512,BILM-1-0512,2,true,false,false,bilmeyeceksin,,you will not know
+1,513,BILM-1-0513,3,true,false,false,bilmeyecek,,he will not know
+1,514,BILM-1-0514,3,true,false,false,bilmeyecek,,she will not know
+1,515,BILM-1-0515,3,true,false,false,bilmeyecek,,it will not know
+1,516,BILM-1-0516,1,true,true,false,bilmeyeceğiz,,we will not know
+1,517,BILM-1-0517,2,true,true,false,bilmeyeceksiniz,,you will not know
+1,518,BILM-1-0518,3,true,true,false,bilmeyecekler,,they will not know
+1,521,BILM-1-0521,1,false,false,true,bilecek miyim,,will I know
+1,522,BILM-1-0522,2,false,false,true,bilecek misin,,will you know
+1,523,BILM-1-0523,3,false,false,true,bilecek mi,,will he know
+1,524,BILM-1-0524,3,false,false,true,bilecek mi,,will she know
+1,525,BILM-1-0525,3,false,false,true,bilecek mi,,will it know
+1,526,BILM-1-0526,1,false,true,true,bilecek miyiz,,will we know
+1,527,BILM-1-0527,2,false,true,true,bilecek misiniz,,will you know
+1,528,BILM-1-0528,3,false,true,true,bilecekler mi,,will they know
+1,531,BILM-1-0531,1,true,false,true,bilmeyecek miyim,,will I not know
+1,532,BILM-1-0532,2,true,false,true,bilmeyecek misin,,will you not know
+1,533,BILM-1-0533,3,true,false,true,bilmeyecek mi,,will he not know
+1,534,BILM-1-0534,3,true,false,true,bilmeyecek mi,,will she not know
+1,535,BILM-1-0535,3,true,false,true,bilmeyecek mi,,will it not know
+1,536,BILM-1-0536,1,true,true,true,bilmeyecek miyiz,,will we not know
+1,537,BILM-1-0537,2,true,true,true,bilmeyecek misiniz,,will you not know
+1,538,BILM-1-0538,3,true,true,true,bilmeyecekler mi,,will they not know
+2,501,OLME-2-0501,1,false,false,false,öleceğim,,I will die
+2,502,OLME-2-0502,2,false,false,false,öleceksün,,you will die
+2,503,OLME-2-0503,3,false,false,false,ölecek,,he will die
+2,504,OLME-2-0504,3,false,false,false,ölecek,,she will die
+2,505,OLME-2-0505,3,false,false,false,ölecek,,it will die
+2,506,OLME-2-0506,1,false,true,false,öleceğiz,,we will die
+2,507,OLME-2-0507,2,false,true,false,öleceksünüz,,you will die
+2,508,OLME-2-0508,3,false,true,false,ölecekler,,they will die
+2,511,OLME-2-0511,1,true,false,false,ölmeyeceğim,,I will not die
+2,512,OLME-2-0512,2,true,false,false,ölmeyeceksin,,you will not die
+2,513,OLME-2-0513,3,true,false,false,ölmeyecek,,he will not die
+2,514,OLME-2-0514,3,true,false,false,ölmeyecek,,she will not die
+2,515,OLME-2-0515,3,true,false,false,ölmeyecek,,it will not die
+2,516,OLME-2-0516,1,true,true,false,ölmeyeceğiz,,we will not die
+2,517,OLME-2-0517,2,true,true,false,ölmeyeceksiniz,,you will not die
+2,518,OLME-2-0518,3,true,true,false,ölmeyecekler,,they will not die
+2,521,OLME-2-0521,1,false,false,true,ölecek müyüm,,will I die
+2,522,OLME-2-0522,2,false,false,true,ölecek müsün,,will you die
+2,523,OLME-2-0523,3,false,false,true,ölecek mü,,will he die
+2,524,OLME-2-0524,3,false,false,true,ölecek mü,,will she die
+2,525,OLME-2-0525,3,false,false,true,ölecek mü,,will it die
+2,526,OLME-2-0526,1,false,true,true,ölecek müyüz,,will we die
+2,527,OLME-2-0527,2,false,true,true,ölecek müsünüz,,will you die
+2,528,OLME-2-0528,3,false,true,true,ölecekler mi,,will they die
+2,531,OLME-2-0531,1,true,false,true,ölmeyecek miyim,,will I not die
+2,532,OLME-2-0532,2,true,false,true,ölmeyecek misin,,will you not die
+2,533,OLME-2-0533,3,true,false,true,ölmeyecek mi,,will he not die
+2,534,OLME-2-0534,3,true,false,true,ölmeyecek mi,,will she not die
+2,535,OLME-2-0535,3,true,false,true,ölmeyecek mi,,will it not die
+2,536,OLME-2-0536,1,true,true,true,ölmeyecek miyiz,,will we not die
+2,537,OLME-2-0537,2,true,true,true,ölmeyecek misiniz,,will you not die
+2,538,OLME-2-0538,3,true,true,true,ölmeyecekler mi,,will they not die
+3,501,ANLA-3-0501,1,false,false,false,anlayacağım,,I will understand
+3,502,ANLA-3-0502,2,false,false,false,anlayacaksın,,you will understand
+3,503,ANLA-3-0503,3,false,false,false,anlayacak,,he will understand
+3,504,ANLA-3-0504,3,false,false,false,anlayacak,,she will understand
+3,505,ANLA-3-0505,3,false,false,false,anlayacak,,it will understand
+3,506,ANLA-3-0506,1,false,true,false,anlayacağız,,we will understand
+3,507,ANLA-3-0507,2,false,true,false,anlayacaksınız,,you will understand
+3,508,ANLA-3-0508,3,false,true,false,anlayacaklar,,they will understand
+3,511,ANLA-3-0511,1,true,false,false,anlamayacağım,,I will not understand
+3,512,ANLA-3-0512,2,true,false,false,anlamayacaksın,,you will not understand
+3,513,ANLA-3-0513,3,true,false,false,anlamayacak,,he will not understand
+3,514,ANLA-3-0514,3,true,false,false,anlamayacak,,she will not understand
+3,515,ANLA-3-0515,3,true,false,false,anlamayacak,,it will not understand
+3,516,ANLA-3-0516,1,true,true,false,anlamayacağız,,we will not understand
+3,517,ANLA-3-0517,2,true,true,false,anlamayacaksınız,,you will not understand
+3,518,ANLA-3-0518,3,true,true,false,anlamayacaklar,,they will not understand
+3,521,ANLA-3-0521,1,false,false,true,anlayacak mıyım,,will I understand
+3,522,ANLA-3-0522,2,false,false,true,anlayacak mısın,,will you understand
+3,523,ANLA-3-0523,3,false,false,true,anlayacak mı,,will he understand
+3,524,ANLA-3-0524,3,false,false,true,anlayacak mı,,will she understand
+3,525,ANLA-3-0525,3,false,false,true,anlayacak mı,,will it understand
+3,526,ANLA-3-0526,1,false,true,true,anlayacak mıyız,,will we understand
+3,527,ANLA-3-0527,2,false,true,true,anlayacak mısınız,,will you understand
+3,528,ANLA-3-0528,3,false,true,true,anlayacaklar mı,,will they understand
+3,531,ANLA-3-0531,1,true,false,true,anlamayacak mıyım,,will I not understand
+3,532,ANLA-3-0532,2,true,false,true,anlamayacak mısın,,will you not understand
+3,533,ANLA-3-0533,3,true,false,true,anlamayacak mı,,will he not understand
+3,534,ANLA-3-0534,3,true,false,true,anlamayacak mı,,will she not understand
+3,535,ANLA-3-0535,3,true,false,true,anlamayacak mı,,will it not understand
+3,536,ANLA-3-0536,1,true,true,true,anlamayacak mıyız,,will we not understand
+3,537,ANLA-3-0537,2,true,true,true,anlamayacak mısınız,,will you not understand
+3,538,ANLA-3-0538,3,true,true,true,anlamayacaklar mı,,will they not understand
+0,2101,ZIET-0-2101,1,false,false,false,ziyaret edebilirim,,I can visit
+0,2102,ZIET-0-2102,2,false,false,false,ziyaret edebilirsin,,you can visit
+0,2103,ZIET-0-2103,3,false,false,false,ziyaret edebilir,,he can visit
+0,2104,ZIET-0-2104,3,false,false,false,ziyaret edebilir,,she can visit
+0,2105,ZIET-0-2105,3,false,false,false,ziyaret edebilir,,it can visit
+0,2106,ZIET-0-2106,3,false,true,false,ziyaret edebiliriz,,we can visit
+0,2107,ZIET-0-2107,3,false,true,false,ziyaret edebilirsiniz,,you can visit
+0,2108,ZIET-0-2108,3,false,true,false,ziyaret edebilirler,,they can visit
+0,2111,ZIET-0-2111,1,true,false,false,ziyaret edemem,,I cannot visit
+0,2112,ZIET-0-2112,2,true,false,false,ziyaret edemezsin,,you cannot visit
+0,2113,ZIET-0-2113,3,true,false,false,ziyaret edemez,,he cannot visit
+0,2114,ZIET-0-2114,3,true,false,false,ziyaret edemez,,she cannot visit
+0,2115,ZIET-0-2115,3,true,false,false,ziyaret edemez,,it cannot visit
+0,2116,ZIET-0-2116,1,true,true,false,ziyaret edemeyiz,,we cannot visit
+0,2117,ZIET-0-2117,2,true,true,false,ziyaret edemezsiniz,,you cannot visit
+0,2118,ZIET-0-2118,3,true,true,false,ziyaret edemezler,,they cannot visit
+0,2121,ZIET-0-2121,1,false,false,true,ziyaret edebilir miyim,,can I visit
+0,2122,ZIET-0-2122,2,false,false,true,ziyaret edebilir misin,,can you visit
+0,2123,ZIET-0-2123,3,false,false,true,ziyaret edebilir mi,,can he visit
+0,2124,ZIET-0-2124,3,false,false,true,ziyaret edebilir mi,,can she visit
+0,2125,ZIET-0-2125,3,false,false,true,ziyaret edebilir mi,,can it visit
+0,2126,ZIET-0-2126,1,false,true,false,ziyaret edebilir miyiz,,can we visit
+0,2127,ZIET-0-2127,2,false,true,false,ziyaret edebilir misiniz,,can you visit
+0,2128,ZIET-0-2128,3,false,true,false,ziyaret edebilirler mi,,can they visit
+0,2131,ZIET-0-2131,1,true,false,true,ziyaret edemez miyim,,can I not visit
+0,2132,ZIET-0-2132,2,true,false,true,ziyaret edemez misin,,can you not visit
+0,2133,ZIET-0-2133,3,true,false,true,ziyaret edemez mi,,can he not visit
+0,2134,ZIET-0-2134,3,true,false,true,ziyaret edemez mi,,can she not visit
+0,2135,ZIET-0-2135,3,true,false,true,ziyaret edemez mi,,can they not visit
+0,2136,ZIET-0-2136,1,true,true,true,ziyaret edemez miyiz,,can we not visit
+0,2137,ZIET-0-2137,2,true,true,true,ziyaret edemez misiniz,,can you not visit
+0,2138,ZIET-0-2138,3,true,true,true,ziyaret edemezler mi,,can they not visit
+1,2101,BILM-1-2101,1,false,false,false,bilebilirim,,I can know
+1,2102,BILM-1-2102,2,false,false,false,bilebilirsin,,you can know
+1,2103,BILM-1-2103,3,false,false,false,bilebilir,,he can know
+1,2104,BILM-1-2104,3,false,false,false,bilebilir,,she can know
+1,2105,BILM-1-2105,3,false,false,false,bilebilir,,it can know
+1,2106,BILM-1-2106,1,false,true,false,bilebiliriz,,we can know
+1,2107,BILM-1-2107,2,false,true,false,bilebilirsiniz,,you can know
+1,2108,BILM-1-2108,3,false,true,false,bilebilirler,,they can know
+1,2111,BILM-1-2111,1,true,false,false,bilemem,,I cannot know
+1,2112,BILM-1-2112,2,true,false,false,bilemezsin,,you cannot know
+1,2113,BILM-1-2113,3,true,false,false,bilemez,,he cannot know
+1,2114,BILM-1-2114,3,true,false,false,bilemez,,she cannot know
+1,2115,BILM-1-2115,3,true,false,false,bilemez,,it cannot know
+1,2116,BILM-1-2116,1,true,true,false,bilemeyiz,,we cannot know
+1,2117,BILM-1-2117,2,true,true,false,bilemezsiniz,,you cannot know
+1,2118,BILM-1-2118,3,true,true,false,bilemezler,,they cannot know
+1,2121,BILM-1-2121,1,false,false,true,bilebilir miyim,,can I know
+1,2122,BILM-1-2122,2,false,false,true,bilebilir misin,,can you know
+1,2123,BILM-1-2123,3,false,false,true,bilebilir mi,,can he know
+1,2124,BILM-1-2124,3,false,false,true,bilebilir mi,,can she know
+1,2125,BILM-1-2125,3,false,false,true,bilebilir mi,,can it know
+1,2126,BILM-1-2126,1,false,true,true,bilebilir miyiz,,can we know
+1,2127,BILM-1-2127,2,false,true,true,bilebilir misiniz,,can you know
+1,2128,BILM-1-2128,3,false,true,true,bilebilirler mi,,can they know
+1,2131,BILM-1-2131,1,true,false,true,bilemez miyim,,can I not know
+1,2132,BILM-1-2132,2,true,false,true,bilemez misin,,can you not know
+1,2133,BILM-1-2133,3,true,false,true,bilemez mi,,can he not know
+1,2134,BILM-1-2134,3,true,false,true,bilemez mi,,can she not know
+1,2135,BILM-1-2135,3,true,false,true,bilemez mi,,can it not know
+1,2136,BILM-1-2136,1,true,true,true,bilemez miyiz,,can we not know
+1,2137,BILM-1-2137,2,true,true,true,bilemez misiniz,,can you not know
+1,2138,BILM-1-2138,3,true,true,true,bilemezler mi,,can they not know
+2,2101,OLME-2-2101,1,false,false,false,ölebilirim,,I can die
+2,2102,OLME-2-2102,2,false,false,false,ölebilirsin,,you can die
+2,2103,OLME-2-2103,3,false,false,false,ölebilir,,he can die
+2,2104,OLME-2-2104,3,false,false,false,ölebilir,,she can die
+2,2105,OLME-2-2105,3,false,false,false,ölebilir,,it can die
+2,2106,OLME-2-2106,1,false,true,false,ölebiliriz,,we can die
+2,2107,OLME-2-2107,2,false,true,false,ölebilirsiniz,,you can die
+2,2108,OLME-2-2108,3,false,true,false,ölebilirler,,they can die
+2,2111,OLME-2-2111,1,true,false,false,ölemem,,I cannot die
+2,2112,OLME-2-2112,2,true,false,false,ölemezsin,,you cannot die
+2,2113,OLME-2-2113,3,true,false,false,ölemez,,he cannot die
+2,2114,OLME-2-2114,3,true,false,false,ölemez,,she cannot die
+2,2115,OLME-2-2115,3,true,false,false,ölemez,,it cannot die
+2,2116,OLME-2-2116,1,true,true,false,ölemeyiz,,we cannot die
+2,2117,OLME-2-2117,2,true,true,false,ölemezsiniz,,you cannot die
+2,2118,OLME-2-2118,3,true,true,false,ölemezler,,they cannot die
+2,2121,OLME-2-2121,1,false,false,true,ölebilir miyim,,can I die
+2,2122,OLME-2-2122,2,false,false,true,ölebilir misin,,can you die
+2,2123,OLME-2-2123,3,false,false,true,ölebilir mi,,can he die
+2,2124,OLME-2-2124,3,false,false,true,ölebilir mi,,can she die
+2,2125,OLME-2-2125,3,false,false,true,ölebilir mi,,can it die
+2,2126,OLME-2-2126,1,false,true,true,ölebilir miyiz,,can we die
+2,2127,OLME-2-2127,2,false,true,true,ölebilir misiniz,,can you die
+2,2128,OLME-2-2128,3,false,true,true,ölebilirler mi,,can they die
+2,2131,OLME-2-2131,1,true,false,true,ölemez miyim,,can I not die
+2,2132,OLME-2-2132,2,true,false,true,ölemez misin,,can you not die
+2,2133,OLME-2-2133,3,true,false,true,ölemez mi,,can he not die
+2,2134,OLME-2-2134,3,true,false,true,ölemez mi,,can she not die
+2,2135,OLME-2-2135,3,true,false,true,ölemez mi,,can it not die
+2,2136,OLME-2-2136,1,true,true,true,ölemez miyiz,,can we not die
+2,2137,OLME-2-2137,2,true,true,true,ölemez misiniz,,can you not die
+2,2138,OLME-2-2138,3,true,true,true,ölemezler mi,,can they not die
+3,2101,ANLA-3-2101,1,false,false,false,anlayabilirim,,I can understand
+3,2102,ANLA-3-2102,2,false,false,false,anlayabilirsin,,you can understand
+3,2103,ANLA-3-2103,3,false,false,false,anlayabilir,,he can understand
+3,2104,ANLA-3-2104,3,false,false,false,anlayabilir,,she can understand
+3,2105,ANLA-3-2105,3,false,false,false,anlayabilir,,it can understand
+3,2106,ANLA-3-2106,1,false,true,false,anlayabiliriz,,we can understand
+3,2107,ANLA-3-2107,2,false,true,false,anlayabilirsiniz,,you can understand
+3,2108,ANLA-3-2108,3,false,true,false,anlayabilirler,,they can understand
+3,2111,ANLA-3-2111,1,true,false,false,anlayamam,,I cannot understand
+3,2112,ANLA-3-2112,2,true,false,false,anlayamazsın,,you cannot understand
+3,2113,ANLA-3-2113,3,true,false,false,anlayamaz,,he cannot understand
+3,2114,ANLA-3-2114,3,true,false,false,anlayamaz,,she cannot understand
+3,2115,ANLA-3-2115,3,true,false,false,anlayamaz,,it cannot understand
+3,2116,ANLA-3-2116,1,true,true,false,anlayamayız,,we cannot understand
+3,2117,ANLA-3-2117,2,true,true,false,anlayamazsınız,,you cannot understand
+3,2118,ANLA-3-2118,3,true,true,false,anlayamazlar,,they cannot understand
+3,2121,ANLA-3-2121,1,false,false,true,anlayabilir miyim,,can I understand
+3,2122,ANLA-3-2122,2,false,false,true,anlayabilir misin,,can you understand
+3,2123,ANLA-3-2123,3,false,false,true,anlayabilir mi,,can he understand
+3,2124,ANLA-3-2124,3,false,false,true,anlayabilir mi,,can she understand
+3,2125,ANLA-3-2125,3,false,false,true,anlayabilir mi,,can it understand
+3,2126,ANLA-3-2126,1,false,true,true,anlayabilir miyiz,,can we understand
+3,2127,ANLA-3-2127,2,false,true,true,anlayabilir misiniz,,can you understand
+3,2128,ANLA-3-2128,3,false,true,true,anlayabilirler mi,,can they understand
+3,2131,ANLA-3-2131,1,true,false,true,anlayamaz mıyım,,can I not understand
+3,2132,ANLA-3-2132,2,true,false,true,anlayamaz mısın,,can you not understand
+3,2133,ANLA-3-2133,3,true,false,true,anlayamaz mı,,can he not understand
+3,2134,ANLA-3-2134,3,true,false,true,anlayamaz mı,,can she not understand
+3,2135,ANLA-3-2135,3,true,false,true,anlayamaz mı,,can it not understand
+3,2136,ANLA-3-2136,1,true,true,true,anlayamaz mıyız,,can we not understand
+3,2137,ANLA-3-2137,2,true,true,true,anlayamaz mısınız,,can you not understand
+3,2138,ANLA-3-2138,3,true,true,true,anlayamazlar mı,,can they not understand

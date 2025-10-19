@@ -1,50 +1,22 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Nashoca.Domain.Entities
 {
-    public enum Case
-    {
-        nom, // *
-        acc, // i
-        gen, // in
-        dat, // e
-        loc, // de
-        abl, // den
-        ins, // le
-    }
-
     public class VerbTr
     {
-        [Key]
-        [Column(TypeName = "CHAR(5)")]
-        public string VtrSymbol { get; set; }
-
-        [Required]
-        [MaxLength(30)]
-        public string VtrName { get; set; }
-        
-        [MaxLength(20)]
-        public string VtrPrefP { get; set; }
-        
-        [Required]
-        [MaxLength(30)]
-        public string VtrMainF { get; set; }
-        
-        [Required]
-        [MaxLength(30)]
-        public string VtrMinF { get; set; }
-        
-        [MaxLength(1, ErrorMessage = "vtr_chg_l property should contain only 1 character")]
-        public string VtrChgL { get; set; }
-
-        [Required]
-        [MaxLength(2)]
-        public string VtrAoristS { get; set; }
-
-        [Required]
-        public Case VtrCase { get; set; }
-
-        public VerbTrans VerbTrans { get; set; }
+        public int Id { get; set; } 
+        public string Symbol { get; set; }
+        public string Name { get; set; }
+        public string PrefP { get; set; }
+        public string MainF { get; set; }
+        public string MinF { get; set; }
+        public string AoristS { get; set; }
+        public string PassS { get; set; }
+        public string Rules { get; set; }
     }
 }

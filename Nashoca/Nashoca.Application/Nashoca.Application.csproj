@@ -7,12 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MediatR" Version="12.5.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Nashoca.Domain\Nashoca.Domain.csproj" />
-    <ProjectReference Include="..\Nashoca.Infrastructure\Nashoca.Infrastructure.csproj" />
+    <Folder Include="Commands\" />
+    <Folder Include="Queries\" />
   </ItemGroup>
 
 </Project>

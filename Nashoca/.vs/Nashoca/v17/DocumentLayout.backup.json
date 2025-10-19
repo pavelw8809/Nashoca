@@ -3,24 +3,112 @@
   "WorkspaceRootPath": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca\\models\\verbtrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|solutionrelative:nashoca\\models\\verbtrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\generators\\english\\futuresimpleen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\generators\\english\\futuresimpleen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca\\dbcontexts\\maindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|solutionrelative:nashoca\\dbcontexts\\maindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\generators\\english\\pastsimplenwen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\generators\\english\\pastsimplenwen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca\\models\\verbtr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|solutionrelative:nashoca\\models\\verbtr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\generators\\english\\verbconstructionenbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\generators\\english\\verbconstructionenbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca\\models\\verben.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|solutionrelative:nashoca\\models\\verben.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\generators\\turkish\\pastsimplenw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\generators\\turkish\\pastsimplenw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca\\models\\nountr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A9A6DD7-2C1B-4F02-9E1A-F53D55EBB08A}|Nashoca\\Nashoca.csproj|solutionrelative:nashoca\\models\\nountr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\generators\\turkish\\futuresimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\generators\\turkish\\futuresimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\generators\\turkish\\aorist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\generators\\turkish\\aorist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\data\\verbdatatr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\data\\verbdatatr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\data\\verbdataen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\data\\verbdataen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\data\\verbannotations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\data\\verbannotations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\generators\\turkish\\pastsimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\generators\\turkish\\pastsimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\generators\\english\\pastsimpleen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\generators\\english\\pastsimpleen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\generators\\english\\presentcontinuousen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\generators\\english\\presentcontinuousen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\generators\\turkish\\presentcontinuous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\generators\\turkish\\presentcontinuous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\generators\\turkish\\verbconstructionbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\generators\\turkish\\verbconstructionbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\models\\harmonyinfoobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\models\\harmonyinfoobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\utils\\vowelhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\utils\\vowelhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63F7A5B-0131-4C87-8F61-F9C735C0CB7C}|Nashoca.Tests\\Nashoca.Tests.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.tests\\coreengine\\verbgen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63F7A5B-0131-4C87-8F61-F9C735C0CB7C}|Nashoca.Tests\\Nashoca.Tests.csproj|solutionrelative:nashoca.tests\\coreengine\\verbgen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\core\\verbgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\core\\verbgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\generators\\english\\aoristen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\generators\\english\\aoristen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63F7A5B-0131-4C87-8F61-F9C735C0CB7C}|Nashoca.Tests\\Nashoca.Tests.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.tests\\model\\verbgenobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63F7A5B-0131-4C87-8F61-F9C735C0CB7C}|Nashoca.Tests\\Nashoca.Tests.csproj|solutionrelative:nashoca.tests\\model\\verbgenobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\models\\outputobjtren.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\models\\outputobjtren.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\models\\inputobjtren.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\models\\inputobjtren.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\models\\entranslationinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\models\\entranslationinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\models\\suffixresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\models\\suffixresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{763C1675-1391-48F7-8455-4FF95BC65388}|Nashoca.Domain\\Nashoca.Domain.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.domain\\entities\\verbtr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{763C1675-1391-48F7-8455-4FF95BC65388}|Nashoca.Domain\\Nashoca.Domain.csproj|solutionrelative:nashoca.domain\\entities\\verbtr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{763C1675-1391-48F7-8455-4FF95BC65388}|Nashoca.Domain\\Nashoca.Domain.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.domain\\entities\\verbenmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{763C1675-1391-48F7-8455-4FF95BC65388}|Nashoca.Domain\\Nashoca.Domain.csproj|solutionrelative:nashoca.domain\\entities\\verbenmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|c:\\users\\pwieczorek\\projects\\nashoca\\nashoca\\nashoca.coreengine\\utils\\verbpropshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AD2CD9-EA9D-4708-81DB-F435C0B58BBB}|Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj|solutionrelative:nashoca.coreengine\\utils\\verbpropshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,79 +117,369 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 871,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VerbTrans.cs",
-              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\VerbTrans.cs",
-              "RelativeDocumentMoniker": "Nashoca\\Models\\VerbTrans.cs",
-              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\VerbTrans.cs",
-              "RelativeToolTip": "Nashoca\\Models\\VerbTrans.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "VerbConstructionEnBase.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\English\\VerbConstructionEnBase.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Generators\\English\\VerbConstructionEnBase.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\English\\VerbConstructionEnBase.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Generators\\English\\VerbConstructionEnBase.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T10:24:36.714Z",
+              "WhenOpened": "2025-10-16T16:44:53.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NounTr.cs",
-              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\NounTr.cs",
-              "RelativeDocumentMoniker": "Nashoca\\Models\\NounTr.cs",
-              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\NounTr.cs",
-              "RelativeToolTip": "Nashoca\\Models\\NounTr.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBwAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "VerbGen.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.Tests\\CoreEngine\\VerbGen.cs",
+              "RelativeDocumentMoniker": "Nashoca.Tests\\CoreEngine\\VerbGen.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.Tests\\CoreEngine\\VerbGen.cs",
+              "RelativeToolTip": "Nashoca.Tests\\CoreEngine\\VerbGen.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T09:54:42.346Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\DbContexts\\MainDbContext.cs",
-              "RelativeDocumentMoniker": "Nashoca\\DbContexts\\MainDbContext.cs",
-              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\DbContexts\\MainDbContext.cs",
-              "RelativeToolTip": "Nashoca\\DbContexts\\MainDbContext.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T15:24:59.916Z",
+              "WhenOpened": "2025-09-06T15:13:45.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "VerbEn.cs",
-              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\VerbEn.cs",
-              "RelativeDocumentMoniker": "Nashoca\\Models\\VerbEn.cs",
-              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\VerbEn.cs",
-              "RelativeToolTip": "Nashoca\\Models\\VerbEn.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwCQAAAAYAAAAAAAAAA==",
+              "Title": "PastSimpleNw.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\Turkish\\PastSimpleNw.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Generators\\Turkish\\PastSimpleNw.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\Turkish\\PastSimpleNw.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Generators\\Turkish\\PastSimpleNw.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwE8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T10:24:07.366Z",
+              "WhenOpened": "2025-10-04T08:31:22.306Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VerbTr.cs",
-              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\VerbTr.cs",
-              "RelativeDocumentMoniker": "Nashoca\\Models\\VerbTr.cs",
-              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca\\Models\\VerbTr.cs",
-              "RelativeToolTip": "Nashoca\\Models\\VerbTr.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDAAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "VerbGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Core\\VerbGenerator.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Core\\VerbGenerator.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Core\\VerbGenerator.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Core\\VerbGenerator.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wB8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T10:09:04.06Z",
+              "WhenOpened": "2025-08-15T13:16:55.392Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EnTranslationInfo.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Models\\EnTranslationInfo.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Models\\EnTranslationInfo.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Models\\EnTranslationInfo.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Models\\EnTranslationInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:52:04.696Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1543,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FutureSimpleEn.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\English\\FutureSimpleEn.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Generators\\English\\FutureSimpleEn.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\English\\FutureSimpleEn.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Generators\\English\\FutureSimpleEn.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowDEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:38:42.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PresentContinuous.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\Turkish\\PresentContinuous.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Generators\\Turkish\\PresentContinuous.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\Turkish\\PresentContinuous.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Generators\\Turkish\\PresentContinuous.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAcwGcAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T11:35:03.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HarmonyInfoObj.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Models\\HarmonyInfoObj.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Models\\HarmonyInfoObj.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Models\\HarmonyInfoObj.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Models\\HarmonyInfoObj.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:48:26.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Aorist.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\Turkish\\Aorist.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Generators\\Turkish\\Aorist.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\Turkish\\Aorist.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Generators\\Turkish\\Aorist.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAAwKAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T14:10:20.285Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1893,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PastSimpleNwEn.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\English\\PastSimpleNwEn.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Generators\\English\\PastSimpleNwEn.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\English\\PastSimpleNwEn.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Generators\\English\\PastSimpleNwEn.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T09:34:29.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VerbDataTr.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Data\\VerbDataTr.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Data\\VerbDataTr.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Data\\VerbDataTr.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Data\\VerbDataTr.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T22:18:23.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VerbAnnotations.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Data\\VerbAnnotations.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Data\\VerbAnnotations.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Data\\VerbAnnotations.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Data\\VerbAnnotations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T22:14:45.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FutureSimple.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\Turkish\\FutureSimple.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Generators\\Turkish\\FutureSimple.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\Turkish\\FutureSimple.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Generators\\Turkish\\FutureSimple.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAowIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:38:22.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PastSimpleEn.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\English\\PastSimpleEn.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Generators\\English\\PastSimpleEn.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\English\\PastSimpleEn.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Generators\\English\\PastSimpleEn.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:59:13.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PresentContinuousEn.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\English\\PresentContinuousEn.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Generators\\English\\PresentContinuousEn.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\English\\PresentContinuousEn.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Generators\\English\\PresentContinuousEn.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:03:22.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PastSimple.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\Turkish\\PastSimple.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Generators\\Turkish\\PastSimple.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\Turkish\\PastSimple.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Generators\\Turkish\\PastSimple.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAmwGsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T11:57:53.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AoristEn.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\English\\AoristEn.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Generators\\English\\AoristEn.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\English\\AoristEn.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Generators\\English\\AoristEn.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwCwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:58:53.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VerbConstructionBase.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\Turkish\\VerbConstructionBase.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Generators\\Turkish\\VerbConstructionBase.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Generators\\Turkish\\VerbConstructionBase.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Generators\\Turkish\\VerbConstructionBase.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwDEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T12:08:24.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VowelHelper.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Utils\\VowelHelper.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Utils\\VowelHelper.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Utils\\VowelHelper.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Utils\\VowelHelper.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAYwGkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T09:01:01.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VerbDataEn.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Data\\VerbDataEn.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Data\\VerbDataEn.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Data\\VerbDataEn.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Data\\VerbDataEn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T12:16:57.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "VerbGenObj.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.Tests\\Model\\VerbGenObj.cs",
+              "RelativeDocumentMoniker": "Nashoca.Tests\\Model\\VerbGenObj.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.Tests\\Model\\VerbGenObj.cs",
+              "RelativeToolTip": "Nashoca.Tests\\Model\\VerbGenObj.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T17:20:36.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OutputObjTrEn.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Models\\OutputObjTrEn.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Models\\OutputObjTrEn.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Models\\OutputObjTrEn.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Models\\OutputObjTrEn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T08:07:27.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "InputObjTrEn.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Models\\InputObjTrEn.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Models\\InputObjTrEn.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Models\\InputObjTrEn.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Models\\InputObjTrEn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T08:07:18.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SuffixResult.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Models\\SuffixResult.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Models\\SuffixResult.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Models\\SuffixResult.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Models\\SuffixResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:51:27.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "VerbTr.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.Domain\\Entities\\VerbTr.cs",
+              "RelativeDocumentMoniker": "Nashoca.Domain\\Entities\\VerbTr.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.Domain\\Entities\\VerbTr.cs",
+              "RelativeToolTip": "Nashoca.Domain\\Entities\\VerbTr.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA6wAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T17:05:09.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "VerbPropsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Utils\\VerbPropsHandler.cs",
+              "RelativeDocumentMoniker": "Nashoca.CoreEngine\\Utils\\VerbPropsHandler.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Utils\\VerbPropsHandler.cs",
+              "RelativeToolTip": "Nashoca.CoreEngine\\Utils\\VerbPropsHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T19:02:23.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "VerbEnMin.cs",
+              "DocumentMoniker": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.Domain\\Entities\\VerbEnMin.cs",
+              "RelativeDocumentMoniker": "Nashoca.Domain\\Entities\\VerbEnMin.cs",
+              "ToolTip": "C:\\Users\\PWieczorek\\Projects\\Nashoca\\Nashoca\\Nashoca.Domain\\Entities\\VerbEnMin.cs",
+              "RelativeToolTip": "Nashoca.Domain\\Entities\\VerbEnMin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T15:53:00.732Z"
             }
           ]
         }

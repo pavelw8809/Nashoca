@@ -1,0 +1,5 @@
+Id,Symbol,Name,PrefP,MainF,PostP,ContF,PastF,PPastF,Rules
+0,VISI,visit,,visit,,visit,visited,visited,
+1,KNOW,know,,know,,,knew,known,
+2,DIEX,die,,die,,dy,died,died,
+3,UNDE,understand,,understand,,,understood,understood,

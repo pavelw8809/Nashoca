@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nashoca.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cd1a50cc0df02567979e788eefb1bcb07424cce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d9b0b5f9a937f01daf417ffc0af4ccce64395a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nashoca.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nashoca.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
