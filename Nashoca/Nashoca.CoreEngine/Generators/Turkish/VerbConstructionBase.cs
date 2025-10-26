@@ -40,16 +40,52 @@ namespace Nashoca.CoreEngine.Generators.Turkish
             return new SuffixResult()
             {
                 Type = "Verb Root",
-                Value = Input.TrMainF,
+                Value = string.IsNullOrWhiteSpace(Input.TrPrefP) ? Input.TrMainF : $"{Input.TrPrefP} {Input.TrMainF}",
                 Description = $"Basic verb form from {Input.TrName}"
             };
         }
 
+        public virtual SuffixResult GetAbilityPreSuffix()
+        {
+            if (VerbProps.ConstructCode >= 20 && VerbProps.ConstructCode <= 24) return null;
+
+            if (HarmonyInfo.IsLastCharVowel) return new SuffixResult()
+            {
+                Type = "Y Consonant Buffer",
+                Value = "y",
+                Description = $"'y' consonant buffer between two vowels"
+            };
+
+            return null;
+        }
+
+        public virtual SuffixResult GetAbilitySuffix()
+        {
+            if (VerbProps.ConstructCode >= 20 && VerbProps.ConstructCode < 24) return null;
+
+            string value = $"{HarmonyInfo.AEHarmony}bil";
+            string desc = $"The ability suffix in affirmative sentences";
+
+            if (VerbProps.IsNegation)
+            {
+                value = $"{HarmonyInfo.AEHarmony}";
+                desc = $"The ability suffix in negative sentences";
+            }
+
+            return new SuffixResult()
+            {
+                Type = "Ability Suffix",
+                Value = value,
+                Description = desc
+            };
+        }
+
         public virtual SuffixResult GetNegationSuffix() => null;
-        public virtual SuffixResult GetConsonantBuffer0() => null;
+        //public virtual SuffixResult GetConsonantBuffer0() => null;
         public virtual SuffixResult GetTense0PreSuffix() => null;
         public virtual SuffixResult GetTense0Suffix() => null;
         public virtual SuffixResult GetTense1PreSuffix() => null;
+        public virtual SuffixResult GetTense1Suffix() => null;
         public virtual SuffixResult GetPluralSuffix() => null;
         public virtual SuffixResult GetQuestionSuffix() => null;
         public virtual SuffixResult GetConsonantBuffer1(string outputForm, string personSuffix)

@@ -18,6 +18,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
             HarmonyInfo = VowelHelper.GetHarmonyInfo(input.TrMainF);
         }
 
+        /*
         public override SuffixResult GetRootSuffix()
         {
             return new SuffixResult()
@@ -27,6 +28,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
                 Description = $"Basic verb form from: {Input.TrName}"
             };
         }
+        */
 
         public override SuffixResult GetNegationSuffix()
         {

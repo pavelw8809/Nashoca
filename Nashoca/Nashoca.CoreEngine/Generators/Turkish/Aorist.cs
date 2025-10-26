@@ -83,13 +83,6 @@ namespace Nashoca.CoreEngine.Generators.Turkish
             return output;
         }
 
-        /*
-        public SuffixResult GetTense1PreSuffix()
-        {
-            return null;
-        }
-        */
-
         public override SuffixResult GetQuestionSuffix()
         {
             string type = "Question Suffix";

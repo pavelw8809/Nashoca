@@ -8,6 +8,7 @@ namespace Nashoca.CoreEngine.Models
 {
     public class VerbPropsObj
     {
+        public int ConstructCode { get; set; }
         public bool IsNegation { get; set; }
         public bool IsQuestion { get; set; }
         public int Person { get; set; }

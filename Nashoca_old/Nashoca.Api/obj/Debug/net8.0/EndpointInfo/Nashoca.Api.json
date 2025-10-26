@@ -1,0 +1,174 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Nashoca.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Verbs": {
+      "get": {
+        "tags": [
+          "Verbs"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VerbDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VerbDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VerbDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Verbs"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerbDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerbDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerbDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "VerbDto": {
+        "type": "object",
+        "properties": {
+          "vtrSymbol": {
+            "type": "string",
+            "nullable": true
+          },
+          "vtrName": {
+            "type": "string",
+            "nullable": true
+          },
+          "vtrPrefP": {
+            "type": "string",
+            "nullable": true
+          },
+          "vtrMainF": {
+            "type": "string",
+            "nullable": true
+          },
+          "vtrMinF": {
+            "type": "string",
+            "nullable": true
+          },
+          "vtrChgL": {
+            "type": "string",
+            "nullable": true
+          },
+          "vtrAoristS": {
+            "type": "string",
+            "nullable": true
+          },
+          "vtrCase": {
+            "type": "string",
+            "nullable": true
+          },
+          "venSymbol": {
+            "type": "string",
+            "nullable": true
+          },
+          "venName": {
+            "type": "string",
+            "nullable": true
+          },
+          "venPrefP": {
+            "type": "string",
+            "nullable": true
+          },
+          "venMainF": {
+            "type": "string",
+            "nullable": true
+          },
+          "venMinF": {
+            "type": "string",
+            "nullable": true
+          },
+          "venPastF": {
+            "type": "string",
+            "nullable": true
+          },
+          "venPpastF": {
+            "type": "string",
+            "nullable": true
+          },
+          "venAdd": {
+            "type": "string",
+            "nullable": true
+          },
+          "venExc": {
+            "type": "string",
+            "nullable": true
+          },
+          "vtEn": {
+            "type": "string",
+            "nullable": true
+          },
+          "vtGr": {
+            "type": "string",
+            "nullable": true
+          },
+          "vtPl": {
+            "type": "string",
+            "nullable": true
+          },
+          "vtRu": {
+            "type": "string",
+            "nullable": true
+          },
+          "vtTr": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

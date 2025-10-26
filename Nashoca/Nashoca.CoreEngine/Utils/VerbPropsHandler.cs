@@ -11,6 +11,7 @@ namespace Nashoca.CoreEngine.Utils
     {
         public static VerbPropsObj GetVerbProps(int formNo)
         {
+            int constructCode = formNo / 100;
             int personNo = formNo % 10;
             int verbPropsCode = formNo / 10 % 10;
 
@@ -30,6 +31,7 @@ namespace Nashoca.CoreEngine.Utils
 
             return new VerbPropsObj()
             {
+                ConstructCode = constructCode,
                 IsNegation = verbPropsCode == 1 || verbPropsCode == 3,
                 IsQuestion = verbPropsCode == 2 || verbPropsCode == 3,
                 Person = personNo,

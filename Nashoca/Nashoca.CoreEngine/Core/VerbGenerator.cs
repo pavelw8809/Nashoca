@@ -55,6 +55,20 @@ namespace Nashoca.CoreEngine.Core
                     formOutput.Append(root.Value);
                     suffixList.Add(root);
 
+                    SuffixResult abilitypre = verbConstructionTr.GetAbilityPreSuffix();
+                    if (abilitypre != null)
+                    {
+                        formOutput.Append(abilitypre.Value);
+                        suffixList.Add(abilitypre);
+                    }
+
+                    SuffixResult ability = verbConstructionTr.GetAbilitySuffix();
+                    if (ability != null)
+                    {
+                        formOutput.Append(ability.Value);
+                        suffixList.Add(ability);
+                    }
+
                     SuffixResult negation = verbConstructionTr.GetNegationSuffix();
                     if (negation != null)
                     {
