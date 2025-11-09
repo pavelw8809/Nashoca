@@ -17,5 +17,7 @@ namespace Nashoca.CoreEngine.Data
         public static readonly string[] snsPersons = ["don't", "don't", "doesn't", "doesn't", "doesn't", "don't", "don't"];
         public static readonly string futureModal = "will";
         public static readonly string pastModal = "did";
+        public static readonly string abilityModal = "can";
+        public static readonly string abilityModalN = "cannot";
     }
 }

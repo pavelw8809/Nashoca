@@ -1,4 +1,4 @@
-﻿using Nashoca.CoreEngine.Models;
+﻿using Nashoca.CoreEngine.Models.Verbs;
 using Nashoca.CoreEngine.Utils;
 using Nashoca.CoreEngine.Data;
 using System;

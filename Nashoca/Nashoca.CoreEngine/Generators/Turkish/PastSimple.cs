@@ -1,4 +1,5 @@
-﻿using Nashoca.CoreEngine.Models;
+﻿using Nashoca.CoreEngine.Models.Verbs;
+using Nashoca.CoreEngine.Models;
 using Nashoca.CoreEngine.Utils;
 using System;
 using System.Collections.Generic;
@@ -18,18 +19,6 @@ namespace Nashoca.CoreEngine.Generators.Turkish
             HarmonyInfo = VowelHelper.GetHarmonyInfo(input.TrMainF);
         }
 
-        /*
-        public override SuffixResult GetRootSuffix()
-        {
-            return new SuffixResult()
-            {
-                Type = "Verb Root",
-                Value = string.IsNullOrWhiteSpace(Input.TrPrefP) ? Input.TrMainF : $"{Input.TrPrefP} {Input.TrMainF}",
-                Description = $"Basic verb form from: {Input.TrName}"
-            };
-        }
-        */
-
         public override SuffixResult GetNegationSuffix()
         {
             if (VerbProps.IsNegation)
@@ -37,6 +26,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
                 return new SuffixResult()
                 {
                     Type = "Negation Suffix",
+                    TypeSymbol = "negation",
                     Value = $"m{HarmonyInfo.AEHarmony}",
                     Description = $"m + {HarmonyInfo.AEHarmony}. According to the vowel harmony (a/e)"
                 };
@@ -52,6 +42,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
             SuffixResult output = new()
             {
                 Type = "Past Simple Tense Suffix",
+                TypeSymbol = "tense0",
                 Value = $"d{HarmonyInfo.BaseHarmony}",
                 Description = $"d + {HarmonyInfo.BaseHarmony} (according to the vowel harmony)."
             };
@@ -87,6 +78,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
             return new SuffixResult()
             {
                 Type = "Person Suffix",
+                TypeSymbol = "person",
                 Value = persons[VerbProps.Person - 1],
                 Description = $"Person suffix for {VerbProps.PersonNumber}. {VerbProps.PersonType} person"
             };
@@ -101,6 +93,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
                 return new SuffixResult()
                 {
                     Type = "Question Suffix",
+                    TypeSymbol = "question",
                     Value = $"m{v}",
                     Description = $"m + {v}, according to the vowel harmony."
                 };

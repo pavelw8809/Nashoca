@@ -1,11 +1,6 @@
-﻿using Nashoca.CoreEngine.Models;
+﻿using Nashoca.CoreEngine.Models.Verbs;
 using Nashoca.CoreEngine.Utils;
 using Nashoca.CoreEngine.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Nashoca.CoreEngine.Generators.English
 {
@@ -22,6 +17,7 @@ namespace Nashoca.CoreEngine.Generators.English
             VerbProps = VerbPropsHandler.GetVerbProps(input.FormNo);
         }
 
+        public virtual string GetName() => Input.EnMainF;
         public virtual string GetModalQuestion() => null;
         public virtual string GetPerson() => VerbDataEn.persons[VerbProps.Person - 1];
         public virtual string GetModal() => null;

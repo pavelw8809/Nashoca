@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nashoca.CoreEngine.Models
+namespace Nashoca.CoreEngine.Models.Verbs
 {
     public class VerbPropsObj
     {

@@ -1,19 +1,80 @@
 ﻿using Nashoca.CoreEngine.Generators.English;
 using Nashoca.CoreEngine.Generators.Turkish;
+using Nashoca.CoreEngine.Models.Verbs;
 using Nashoca.CoreEngine.Models;
-using Nashoca.CoreEngine.Utils;
-using System;
-using System.CodeDom.Compiler;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Nashoca.CoreEngine.Core
 {
     public class VerbGenerator : IFormGenerator<InputObjTrEn, OutputObjTrEn>
     {
+        public ICollection<OutputObjTrEn> GenerateMany(ICollection<InputObjTrEn> formList)
+        {
+            ICollection<OutputObjTrEn> outputList = new List<OutputObjTrEn>();
+
+            if (formList.Any())
+            {
+                IEnumerable<InputObjTrEn> f1List = formList.Where(x => x.FormNo >= 100 && x.FormNo <= 199);
+                IEnumerable<InputObjTrEn> f2List = formList.Where(x => x.FormNo >= 200 && x.FormNo <= 299);
+                IEnumerable<InputObjTrEn> f3List = formList.Where(x => x.FormNo >= 300 && x.FormNo <= 399);
+                IEnumerable<InputObjTrEn> f4List = formList.Where(x => x.FormNo >= 400 && x.FormNo <= 499);
+                IEnumerable<InputObjTrEn> f5List = formList.Where(x => x.FormNo >= 500 && x.FormNo <= 599);
+                IEnumerable<InputObjTrEn> f21List = formList.Where(x => x.FormNo >= 2100 && x.FormNo <= 2199);
+
+                IEnumerable<InputObjTrEnCollection> fcList = [
+                    new InputObjTrEnCollection() {
+                        GroupId = 1,
+                        GroupItems = f1List
+                    },
+                    new InputObjTrEnCollection() {
+                        GroupId = 2,
+                        GroupItems = f2List
+                    },
+                    new InputObjTrEnCollection() {
+                        GroupId = 3,
+                        GroupItems = f3List
+                    },
+                    new InputObjTrEnCollection() {
+                        GroupId = 4,
+                        GroupItems = f4List
+                    },
+                    new InputObjTrEnCollection() {
+                        GroupId = 5,
+                        GroupItems = f5List
+                    },
+                    new InputObjTrEnCollection() {
+                        GroupId = 21,
+                        GroupItems = f21List
+                    }
+                ];
+                
+                foreach (InputObjTrEnCollection listObj in fcList)
+                {
+                    if (listObj.GroupItems.Any())
+                    {
+                        InputObjTrEn firstInputObj = listObj.GroupItems.First();
+                        (VerbConstructionBase verbConstructionTr, VerbConstructionEnBase verbConstructionEn) = listObj.GroupId switch
+                        {
+                            1 => (new PresentContinuous(firstInputObj), new PresentContinuousEn(firstInputObj)),
+                            2 => (new Aorist(firstInputObj), new AoristEn(firstInputObj)),
+                            3 => (new PastSimple(firstInputObj), new PastSimpleEn(firstInputObj)),
+                            4 => (new PastSimpleNw(firstInputObj), new PastSimpleNwEn(firstInputObj)),
+                            5 => (new FutureSimple(firstInputObj), new FutureSimpleEn(firstInputObj)),
+                            21 => (new AbilityAorist(firstInputObj), new AbilityAoristEn(firstInputObj)),
+                            _ => ((VerbConstructionBase)null, (VerbConstructionEnBase)null)
+                        };
+
+                        VerbPropsObj verbPropsObj = verbConstructionTr.GetVerbProps();
+                        
+                        foreach (InputObjTrEn input in listObj.GroupItems)
+                        {
+                            Outp
+                        }
+                    }
+                }
+            }
+        }
+        
         public ICollection<OutputObjTrEn> Generate(IEnumerable<InputObjTrEn> formList)
         {
             ICollection<OutputObjTrEn> outputList = new List<OutputObjTrEn>();
@@ -23,25 +84,16 @@ namespace Nashoca.CoreEngine.Core
                 foreach (InputObjTrEn form in formList)
                 {
                     (VerbConstructionBase verbConstructionTr, VerbConstructionEnBase verbConstructionEn) = 
-                    form.FormNo switch 
+                    form.FormNo switch
                     {
+                        > 2100 => (new AbilityAorist(form), new AbilityAoristEn(form)), 
+                        > 500 => (new FutureSimple(form), new FutureSimpleEn(form)),
                         > 400 => (new PastSimpleNw(form), new PastSimpleNwEn(form)),
                         > 300 => (new PastSimple(form), new PastSimpleEn(form)),
                         > 200 => (new Aorist(form), new AoristEn(form)),
                         > 100 => (new PresentContinuous(form), new PresentContinuousEn(form)),
                         _ => ((VerbConstructionBase)null, (VerbConstructionEnBase)null)
                     };
-
-
-                    /*
-                    VerbConstructionBase verbConstruction = form.FormNo switch
-                    {
-                        > 300 => new PastSimple(form),
-                        > 200 => new Aorist(form),
-                        > 100 => new PresentContinuous(form),
-                        _ => null
-                    };
-                    */
 
                     VerbPropsObj verbProps = verbConstructionTr.GetVerbProps();
 
@@ -74,6 +126,13 @@ namespace Nashoca.CoreEngine.Core
                     {
                         formOutput.Append(negation.Value);
                         suffixList.Add(negation);
+                    }
+
+                    SuffixResult tense0pre = verbConstructionTr.GetTense0PreSuffix();
+                    if (tense0pre != null)
+                    {
+                        formOutput.Append(tense0pre.Value);
+                        suffixList.Add(tense0pre);
                     }
 
                     SuffixResult tense0 = verbConstructionTr.GetTense0Suffix();

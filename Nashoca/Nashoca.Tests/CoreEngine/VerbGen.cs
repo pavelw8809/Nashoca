@@ -3,7 +3,7 @@ using CsvHelper.Configuration;
 using Microsoft.VisualStudio.TestPlatform.Utilities;
 using Nashoca.CoreEngine.Core;
 using Nashoca.CoreEngine.Generators.Turkish;
-using Nashoca.CoreEngine.Models;
+using Nashoca.CoreEngine.Models.Verbs;
 using Nashoca.Domain.Entities;
 using Nashoca.Tests.Model;
 using System.Globalization;
@@ -49,7 +49,7 @@ namespace Nashoca.Tests.CoreEngine
 
         public static IEnumerable<object[]> GetVerbTestData()
         {
-            var testType = 4;
+            var testType = 21;
             var projectDir = AppContext.BaseDirectory;
             var verbGenList = GetCsvData<VerbGenObj>(Path.Combine(projectDir, "CoreEngine", "TestData", "VerbGen.csv"));
             var verbTrList = GetCsvData<VerbTr>(Path.Combine(projectDir, "CoreEngine", "TestData", "VerbTr.csv"));

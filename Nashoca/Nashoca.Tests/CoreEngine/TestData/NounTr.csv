@@ -1,9 +1,10 @@
-﻿Id,Symbol,Name,PrefP,MainF,AccF
-0,SAAT,saat,,saat,saati
-1,KLSA,kol saat,kol,saat,saati
-2,EVXX,ev,,ev,evi
-3,ISXX,iş,,iş,işi
-4,ISIK,ışık,,ışık,ışığı
-5,MEDY,medya,,medya,medyası
-6,SOME,sosyal medya,sosyal,medya,medyası
-7,GIZL,gizlilik,,gizlilik,gizliliği,
+﻿Id,Symbol,Name,PrefP,MainF,AccF,IsB,IsH,IsP,IsPl,IsC,IsCP,IsBP,IsHP
+0,SAAT,saat,,saat,saati,false,true,true,true,true,true,false,true
+1,KLSA,kol saati,kol,saati,saati,false,true,true,true,true,true,false,true
+2,EVXX,ev,,ev,evi,false,true,true,true,true,true,false,true
+3,ISXX,iş,,iş,işi,false,true,true,true,true,true,false,false
+4,ISIK,ışık,,ışık,ışığı,false,true,true,true,true,false,false,false
+5,MEDY,medya,,medya,medyası,false,true,true,true,true,false,false,false
+6,SOME,sosyal medya,sosyal,medya,medyası,false,true,true,true,true,false,false,false
+7,GIZL,gizlilik,,gizlilik,gizliliği,false,true,true,true,true,false,false,false
+8,NEHR,nehir,,nehir,nehri,false,true,false,true,true,false,false,false

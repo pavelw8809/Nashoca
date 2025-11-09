@@ -539,7 +539,7 @@
 0,532,ZIET-0-0532,2,true,false,true,ziyaret etmeyecek misin,,will you not visit
 0,533,ZIET-0-0533,3,true,false,true,ziyaret etmeyecek mi,,will he not visit
 0,534,ZIET-0-0534,3,true,false,true,ziyaret etmeyecek mi,,will she not visit
-0,535,ZIET-0-0535,3,true,false,true,ziyaret etmeyecek mi,,will they not visit
+0,535,ZIET-0-0535,3,true,false,true,ziyaret etmeyecek mi,,will it not visit
 0,536,ZIET-0-0536,1,true,true,true,ziyaret etmeyecek miyiz,,will we not visit
 0,537,ZIET-0-0537,2,true,true,true,ziyaret etmeyecek misiniz,,will you not visit
 0,538,ZIET-0-0538,3,true,true,true,ziyaret etmeyecekler mi,,will they not visit
@@ -576,12 +576,12 @@
 1,537,BILM-1-0537,2,true,true,true,bilmeyecek misiniz,,will you not know
 1,538,BILM-1-0538,3,true,true,true,bilmeyecekler mi,,will they not know
 2,501,OLME-2-0501,1,false,false,false,öleceğim,,I will die
-2,502,OLME-2-0502,2,false,false,false,öleceksün,,you will die
+2,502,OLME-2-0502,2,false,false,false,öleceksin,,you will die
 2,503,OLME-2-0503,3,false,false,false,ölecek,,he will die
 2,504,OLME-2-0504,3,false,false,false,ölecek,,she will die
 2,505,OLME-2-0505,3,false,false,false,ölecek,,it will die
 2,506,OLME-2-0506,1,false,true,false,öleceğiz,,we will die
-2,507,OLME-2-0507,2,false,true,false,öleceksünüz,,you will die
+2,507,OLME-2-0507,2,false,true,false,öleceksiniz,,you will die
 2,508,OLME-2-0508,3,false,true,false,ölecekler,,they will die
 2,511,OLME-2-0511,1,true,false,false,ölmeyeceğim,,I will not die
 2,512,OLME-2-0512,2,true,false,false,ölmeyeceksin,,you will not die
@@ -591,13 +591,13 @@
 2,516,OLME-2-0516,1,true,true,false,ölmeyeceğiz,,we will not die
 2,517,OLME-2-0517,2,true,true,false,ölmeyeceksiniz,,you will not die
 2,518,OLME-2-0518,3,true,true,false,ölmeyecekler,,they will not die
-2,521,OLME-2-0521,1,false,false,true,ölecek müyüm,,will I die
-2,522,OLME-2-0522,2,false,false,true,ölecek müsün,,will you die
-2,523,OLME-2-0523,3,false,false,true,ölecek mü,,will he die
-2,524,OLME-2-0524,3,false,false,true,ölecek mü,,will she die
-2,525,OLME-2-0525,3,false,false,true,ölecek mü,,will it die
-2,526,OLME-2-0526,1,false,true,true,ölecek müyüz,,will we die
-2,527,OLME-2-0527,2,false,true,true,ölecek müsünüz,,will you die
+2,521,OLME-2-0521,1,false,false,true,ölecek miyim,,will I die
+2,522,OLME-2-0522,2,false,false,true,ölecek misin,,will you die
+2,523,OLME-2-0523,3,false,false,true,ölecek mi,,will he die
+2,524,OLME-2-0524,3,false,false,true,ölecek mi,,will she die
+2,525,OLME-2-0525,3,false,false,true,ölecek mi,,will it die
+2,526,OLME-2-0526,1,false,true,true,ölecek miyiz,,will we die
+2,527,OLME-2-0527,2,false,true,true,ölecek misiniz,,will you die
 2,528,OLME-2-0528,3,false,true,true,ölecekler mi,,will they die
 2,531,OLME-2-0531,1,true,false,true,ölmeyecek miyim,,will I not die
 2,532,OLME-2-0532,2,true,false,true,ölmeyecek misin,,will you not die
@@ -644,8 +644,8 @@
 0,2103,ZIET-0-2103,3,false,false,false,ziyaret edebilir,,he can visit
 0,2104,ZIET-0-2104,3,false,false,false,ziyaret edebilir,,she can visit
 0,2105,ZIET-0-2105,3,false,false,false,ziyaret edebilir,,it can visit
-0,2106,ZIET-0-2106,3,false,true,false,ziyaret edebiliriz,,we can visit
-0,2107,ZIET-0-2107,3,false,true,false,ziyaret edebilirsiniz,,you can visit
+0,2106,ZIET-0-2106,1,false,true,false,ziyaret edebiliriz,,we can visit
+0,2107,ZIET-0-2107,2,false,true,false,ziyaret edebilirsiniz,,you can visit
 0,2108,ZIET-0-2108,3,false,true,false,ziyaret edebilirler,,they can visit
 0,2111,ZIET-0-2111,1,true,false,false,ziyaret edemem,,I cannot visit
 0,2112,ZIET-0-2112,2,true,false,false,ziyaret edemezsin,,you cannot visit
@@ -667,7 +667,7 @@
 0,2132,ZIET-0-2132,2,true,false,true,ziyaret edemez misin,,can you not visit
 0,2133,ZIET-0-2133,3,true,false,true,ziyaret edemez mi,,can he not visit
 0,2134,ZIET-0-2134,3,true,false,true,ziyaret edemez mi,,can she not visit
-0,2135,ZIET-0-2135,3,true,false,true,ziyaret edemez mi,,can they not visit
+0,2135,ZIET-0-2135,3,true,false,true,ziyaret edemez mi,,can it not visit
 0,2136,ZIET-0-2136,1,true,true,true,ziyaret edemez miyiz,,can we not visit
 0,2137,ZIET-0-2137,2,true,true,true,ziyaret edemez misiniz,,can you not visit
 0,2138,ZIET-0-2138,3,true,true,true,ziyaret edemezler mi,,can they not visit

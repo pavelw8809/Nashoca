@@ -1,10 +1,6 @@
-﻿using Nashoca.CoreEngine.Models;
+﻿using Nashoca.CoreEngine.Models.Verbs;
+using Nashoca.CoreEngine.Models;
 using Nashoca.CoreEngine.Utils;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Nashoca.CoreEngine.Generators.Turkish
 {
@@ -18,18 +14,6 @@ namespace Nashoca.CoreEngine.Generators.Turkish
             HarmonyInfo = VowelHelper.GetHarmonyInfo(input.TrMainF);
         }
 
-        /*
-        public override SuffixResult GetRootSuffix()
-        {
-            return new SuffixResult()
-            {
-                Type = "Verb Root",
-                Value = string.IsNullOrWhiteSpace(Input.TrPrefP) ? Input.TrMainF : $"{Input.TrPrefP} {Input.TrMainF}",
-                Description = $"Basic verb form from: {Input.TrName}"
-            };
-        }
-        */
-
         public override SuffixResult GetNegationSuffix()
         {
             if (VerbProps.IsNegation)
@@ -37,6 +21,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
                 return new SuffixResult()
                 {
                     Type = "Negation Suffix",
+                    TypeSymbol = "negation",
                     Value = $"m{HarmonyInfo.AEHarmony}",
                     Description = $"m + {HarmonyInfo.AEHarmony}. According to the vowel harmony (a/e)"
                 };
@@ -52,6 +37,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
             SuffixResult output = new()
             {
                 Type = "Past Simple Tense Suffix",
+                TypeSymbol = "tense0",
                 Value = $"m{HarmonyInfo.BaseHarmony}ş",
                 Description = $"m + {HarmonyInfo.BaseHarmony} + ş (according to the vowel harmony)."
             };
@@ -81,6 +67,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
                     return new SuffixResult()
                     {
                         Type = type,
+                        TypeSymbol = "question",
                         Value = $"m{HarmonyInfo.IHarmony}",
                         Description = $"Question Suffix: m + {HarmonyInfo.IHarmony}, according to the vowel harmony"
                     };
@@ -90,6 +77,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
                     return new SuffixResult()
                     {
                         Type = type,
+                        TypeSymbol = "question",
                         Value = $"m{HarmonyInfo.BaseHarmony}",
                         Description = $"Question Suffix: m + {HarmonyInfo.BaseHarmony}, according to the vowel harmony"
                     };
@@ -111,6 +99,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
                 return new SuffixResult()
                 {
                     Type = "Y Consonant Buffer",
+                    TypeSymbol = "consbuf",
                     Value = "y",
                     Description = $"'y' consonant buffer between two vowels"
                 };
@@ -128,6 +117,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
                 return new SuffixResult()
                 {
                     Type = "Plural Suffix",
+                    TypeSymbol = "plural",
                     Value = $"l{HarmonyInfo.AEHarmony}r",
                     Description = $"In 3rd. plural person, the plural suffix is added to the main verb word instead of the question suffix"
                 };
@@ -147,6 +137,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
             return new SuffixResult()
             {
                 Type = "Person Suffix",
+                TypeSymbol = "person",
                 Value = persons[VerbProps.Person - 1],
                 Description = $"Person suffix for {VerbProps.PersonNumber}. {VerbProps.PersonType} person"
             };

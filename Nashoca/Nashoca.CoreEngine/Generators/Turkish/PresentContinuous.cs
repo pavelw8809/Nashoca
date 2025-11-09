@@ -1,12 +1,6 @@
-﻿using Nashoca.CoreEngine.Models;
+﻿using Nashoca.CoreEngine.Models.Verbs;
+using Nashoca.CoreEngine.Models;
 using Nashoca.CoreEngine.Utils;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.Tracing;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Nashoca.CoreEngine.Generators.Turkish
 {
@@ -41,6 +35,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
             return new SuffixResult()
             {
                 Type = "Verb Root",
+                TypeSymbol = "root",
                 Value = string.IsNullOrWhiteSpace(Input.TrPrefP) ? value : $"{Input.TrPrefP} {value}",
                 Description = desc
             };
@@ -53,6 +48,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
                 return new SuffixResult()
                 {
                     Type = "Negation Suffix",
+                    TypeSymbol = "negation",
                     Value = "m",
                     Description = $"Adding only m as the present continuous tense suffix starts from a vowel"
                 };
@@ -68,6 +64,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
             SuffixResult output = new SuffixResult()
             {
                 Type = "Present Continuous Tense Suffix",
+                TypeSymbol = "tense0",
                 Value = "yor",
                 Description = $"Basic Present Continuous tense suffix"
             };
@@ -100,6 +97,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
                     return new SuffixResult()
                     {
                         Type = type,
+                        TypeSymbol = "question",
                         Value = "mı",
                         Description = $"Question Suffix: m + u, according to the vowel harmony"
                     };
@@ -109,6 +107,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
                     return new SuffixResult()
                     {
                         Type = type,
+                        TypeSymbol = "question",
                         Value = $"mu",
                         Description = $"Question Suffix: m + u, according to the vowel harmony"
                     };
@@ -130,6 +129,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
                 return new SuffixResult()
                 {
                     Type = "Y Consonant Buffer",
+                    TypeSymbol = "consbuf",
                     Value = "y",
                     Description = $"'y' consonant buffer between two vowels"
                 };
@@ -147,6 +147,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
                 return new SuffixResult()
                 {
                     Type = "Plural Suffix",
+                    TypeSymbol = "plural",
                     Value = "lar",
                     Description = $"In 3rd. plural person, the plural suffix is added to the main verb word instead of the question suffix"
                 };
@@ -164,7 +165,8 @@ namespace Nashoca.CoreEngine.Generators.Turkish
             return new SuffixResult()
             {
                 Type = "Person Suffix",
-                Value = persons[VerbProps.Person-1],
+                TypeSymbol = "person",
+                Value = persons[VerbProps.Person - 1],
                 Description = $"Person suffix for {VerbProps.PersonNumber}. {VerbProps.PersonType} person"
             };
         }

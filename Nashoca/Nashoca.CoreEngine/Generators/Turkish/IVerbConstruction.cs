@@ -1,9 +1,5 @@
-﻿using Nashoca.CoreEngine.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Nashoca.CoreEngine.Models.Verbs;
+using Nashoca.CoreEngine.Models;
 
 namespace Nashoca.CoreEngine.Generators.Turkish
 {

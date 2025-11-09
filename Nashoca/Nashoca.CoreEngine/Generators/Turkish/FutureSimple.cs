@@ -1,10 +1,6 @@
-﻿using Nashoca.CoreEngine.Models;
+﻿using Nashoca.CoreEngine.Models.Verbs;
+using Nashoca.CoreEngine.Models;
 using Nashoca.CoreEngine.Utils;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Nashoca.CoreEngine.Generators.Turkish
 {
@@ -31,6 +27,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
             return new SuffixResult()
             {
                 Type = "Verb Root",
+                TypeSymbol = "root",
                 Value = string.IsNullOrWhiteSpace(Input.TrPrefP) ? value : $"{Input.TrPrefP} {value}",
                 Description = desc
             };
@@ -43,6 +40,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
                 return new SuffixResult()
                 {
                     Type = "Negation Suffix",
+                    TypeSymbol = "negation",
                     Value = $"m{HarmonyInfo.AEHarmony}",
                     Description = $"m + {HarmonyInfo.AEHarmony}. According to the vowel harmony (a/e)"
                 };
@@ -60,6 +58,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
                 return new SuffixResult()
                 {
                     Type = "Y Consonant Buffer",
+                    TypeSymbol = "tense0pre",
                     Value = "y",
                     Description = $"'y' consonant buffer between two vowels"
                 };
@@ -70,12 +69,22 @@ namespace Nashoca.CoreEngine.Generators.Turkish
 
         public override SuffixResult GetTense0Suffix()
         {
-            string value = VerbProps.Person == 1 || VerbProps.Person == 6 ? "acağ" : "acak";
-            string desc = VerbProps.Person == 1 || VerbProps.Person == 6 ? $"'k' changes to 'ğ' because the next suffix person starts from a vowel" : $"Basic Future Simple tense suffix";
+            string v = $"{HarmonyInfo.AEHarmony}";
+            string value = !VerbProps.IsQuestion && (VerbProps.Person == 1 || VerbProps.Person == 6) ? $"{v}c{v}ğ" : $"{v}c{v}k";
+            string desc = !VerbProps.IsQuestion && (VerbProps.Person == 1 || VerbProps.Person == 6) ? $"'k' changes to 'ğ' because the next suffix person starts from a vowel" : $"Basic Future Simple tense suffix";
+            
+            /*
+            if (!VerbProps.IsQuestion && (VerbProps.Person == 1 || VerbProps.Person == 6))
+            {
+                value = $"{v}c{v}ğ";
+                desc = $"'k' changes to 'ğ' because the next suffix person starts from a vowel";
+            }
+            */
 
             return new SuffixResult()
             {
                 Type = "Future Simple Tense Suffix",
+                TypeSymbol = "tense0",
                 Value = value,
                 Description = desc
             };
@@ -85,11 +94,12 @@ namespace Nashoca.CoreEngine.Generators.Turkish
         {
             if (VerbProps.IsQuestion)
             {
-                if (VerbProps.Person == 8) return null;
+                //if (VerbProps.Person == 8) return null;
 
                 return new SuffixResult()
                 {
                     Type = "Question Suffix",
+                    TypeSymbol = "question",
                     Value = $"m{HarmonyInfo.IHarmony}",
                     Description = $"Question Suffix: m + {HarmonyInfo.IHarmony}, according to the vowel harmony"
                 };
@@ -110,6 +120,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
                 return new SuffixResult()
                 {
                     Type = "Y Consonant Buffer",
+                    TypeSymbol = "consbuf",
                     Value = "y",
                     Description = $"'y' consonant buffer between two vowels"
                 };
@@ -127,6 +138,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
                 return new SuffixResult()
                 {
                     Type = "Plural Suffix",
+                    TypeSymbol = "plural",
                     Value = $"l{HarmonyInfo.AEHarmony}r",
                     Description = $"In 3rd. plural person, the plural suffix is added to the main verb word instead of the question suffix"
                 };
@@ -139,21 +151,24 @@ namespace Nashoca.CoreEngine.Generators.Turkish
         {
             char? v = HarmonyInfo.IHarmony;
             string[] persons = [$"{v}m", $"s{v}n", "", "", "", $"{v}z", $"s{v}n{v}z", $"l{HarmonyInfo.AEHarmony}r"];
-            string[] nPersons = ["m", $"s{v}n", "", "", "", $"{v}z", $"s{v}n{v}z", $"l{HarmonyInfo.AEHarmony}r"];
+            //string[] nPersons = ["m", $"s{v}n", "", "", "", $"{v}z", $"s{v}n{v}z", $"l{HarmonyInfo.AEHarmony}r"];
 
             if (VerbProps.IsQuestion && VerbProps.Person == 8) return null;
 
             SuffixResult output = new()
             {
                 Type = "Person Suffix",
+                TypeSymbol = "person",
                 Value = persons[VerbProps.Person - 1],
                 Description = $"Person suffix for {VerbProps.PersonNumber}. {VerbProps.PersonType} person",
             };
 
+            /*
             if (VerbProps.IsNegation && !VerbProps.IsQuestion)
             {
                 output.Value = nPersons[VerbProps.Person - 1];
             }
+            */
 
             return output;
         }

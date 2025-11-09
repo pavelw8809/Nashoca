@@ -1,10 +1,6 @@
-﻿using Nashoca.CoreEngine.Models;
+﻿using Nashoca.CoreEngine.Models.Verbs;
+using Nashoca.CoreEngine.Models;
 using Nashoca.CoreEngine.Utils;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Nashoca.CoreEngine.Generators.Turkish
 {
@@ -28,6 +24,8 @@ namespace Nashoca.CoreEngine.Generators.Turkish
         }
 
         public virtual string GetConstructionName() => null;
+
+        public virtual string GetName() => Input.TrName;
         
         public virtual string GetFormCode()
         {
@@ -40,6 +38,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
             return new SuffixResult()
             {
                 Type = "Verb Root",
+                TypeSymbol = "root",
                 Value = string.IsNullOrWhiteSpace(Input.TrPrefP) ? Input.TrMainF : $"{Input.TrPrefP} {Input.TrMainF}",
                 Description = $"Basic verb form from {Input.TrName}"
             };
@@ -47,11 +46,12 @@ namespace Nashoca.CoreEngine.Generators.Turkish
 
         public virtual SuffixResult GetAbilityPreSuffix()
         {
-            if (VerbProps.ConstructCode >= 20 && VerbProps.ConstructCode <= 24) return null;
+            if (!(VerbProps.ConstructCode >= 20 && VerbProps.ConstructCode <= 24)) return null;
 
             if (HarmonyInfo.IsLastCharVowel) return new SuffixResult()
             {
                 Type = "Y Consonant Buffer",
+                TypeSymbol = "abilitypre",
                 Value = "y",
                 Description = $"'y' consonant buffer between two vowels"
             };
@@ -61,7 +61,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
 
         public virtual SuffixResult GetAbilitySuffix()
         {
-            if (VerbProps.ConstructCode >= 20 && VerbProps.ConstructCode < 24) return null;
+            if (!(VerbProps.ConstructCode >= 20 && VerbProps.ConstructCode < 24)) return null;
 
             string value = $"{HarmonyInfo.AEHarmony}bil";
             string desc = $"The ability suffix in affirmative sentences";
@@ -75,13 +75,13 @@ namespace Nashoca.CoreEngine.Generators.Turkish
             return new SuffixResult()
             {
                 Type = "Ability Suffix",
+                TypeSymbol = "ability",
                 Value = value,
                 Description = desc
             };
         }
 
         public virtual SuffixResult GetNegationSuffix() => null;
-        //public virtual SuffixResult GetConsonantBuffer0() => null;
         public virtual SuffixResult GetTense0PreSuffix() => null;
         public virtual SuffixResult GetTense0Suffix() => null;
         public virtual SuffixResult GetTense1PreSuffix() => null;
@@ -100,6 +100,7 @@ namespace Nashoca.CoreEngine.Generators.Turkish
                 return new SuffixResult()
                 {
                     Type = "Y Consonant Buffer",
+                    TypeSymbol = "consbuf",
                     Value = "y",
                     Description = $"'y' consonant buffer between two vowels"
                 };

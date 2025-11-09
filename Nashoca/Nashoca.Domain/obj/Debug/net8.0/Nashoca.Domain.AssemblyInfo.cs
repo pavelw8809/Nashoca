@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nashoca.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9691ecdd6997cce20c72951fcba437b0f693b140")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7eae3f1132f9752fba54998692408827cf7a1cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nashoca.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nashoca.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

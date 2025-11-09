@@ -1,11 +1,6 @@
 ﻿using Nashoca.CoreEngine.Data;
-using Nashoca.CoreEngine.Models;
+using Nashoca.CoreEngine.Models.Verbs;
 using Nashoca.CoreEngine.Utils;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Nashoca.CoreEngine.Generators.English
 {
@@ -38,11 +33,7 @@ namespace Nashoca.CoreEngine.Generators.English
             }
             else
             {
-                if (VerbProps.IsNegation)
-                {
-                    return VerbDataEn.futureModal;
-                }
-                return null;
+                return VerbDataEn.futureModal;
             }
         }
 
