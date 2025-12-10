@@ -1,14 +1,7 @@
-Id,Symbol,Name,PrefP,MainF,MinF,AoristS,PassS,Rules
-0,ZIET,ziyaret etmek,ziyaret,et,ed,er,il,
-1,BILM,bilmek,,bil,bil,ir,in,
-2,OLME,ölmek,,öl,öl,ür,,
-3,ANLA,anlamak,,anla,anla,r,şıl
-4,YAPM,yapmak,,yap,yap,ar,ıl,
-5,GITM,gitmek,,git,gid,er,il,
-6,GELM,gelmek,,gel,gel,ir,,
-7,YURU,yürümek,,yürü,yürü,r,,
-8,GEZI,gezinmek,,gezin,gezin,ir,,
-9,INGZ,internette gezinmek,internette,gezin,gezin,ir,,
-10,OKUX,okumak,,oku,oku,r,,
-11,OLUS,oluşturmak,,oluştur,oluştur,ur,,
-12,AFFE,affetmek,,affet,affed,er,,
+Id,Symbol,Name,PrefP,MainF,MinF,AoristS,PassS,Case,Rules,IsPersonal,IsNotPersonal,IsFormal,IsCompound,CompoundCase
+0,ZIET,ziyaret etmek,ziyaret,et,ed,er,il,acc,,true,false,true,false,
+1,BILM,bilmek,,bil,bil,ir,in,acc,,true,true,true,false,
+2,OLME,ölmek,,öl,öl,ür,,nom,,true,true,true,false,
+3,ANLA,anlamak,,anla,anla,r,şıl,acc,,true,false,true,false,
+4,IHOL,ihtiyaç olmak,ihtiyaç,ol,ol,ur,an,dat,p/+/2/3/5,true,true,true,true,0
+5,HOGI,hoşuna gitmek,hoş,git,gid,er,,nom,,true,false,true,true,2

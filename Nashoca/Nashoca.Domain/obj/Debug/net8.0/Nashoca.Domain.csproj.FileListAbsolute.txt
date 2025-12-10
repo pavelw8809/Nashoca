@@ -22,3 +22,15 @@ C:/Users/PWieczorek/Projects/Nashoca/Nashoca/Nashoca.Domain/obj/Debug/net8.0/ref
 /_prog/Nashoca/Nashoca/Nashoca.Domain/obj/Debug/net8.0/refint/Nashoca.Domain.dll
 /_prog/Nashoca/Nashoca/Nashoca.Domain/obj/Debug/net8.0/Nashoca.Domain.pdb
 /_prog/Nashoca/Nashoca/Nashoca.Domain/obj/Debug/net8.0/ref/Nashoca.Domain.dll
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.Domain\bin\Debug\net8.0\Nashoca.Domain.deps.json
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.Domain\bin\Debug\net8.0\Nashoca.Domain.dll
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.Domain\bin\Debug\net8.0\Nashoca.Domain.pdb
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.Domain\obj\Debug\net8.0\Nashoca.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.Domain\obj\Debug\net8.0\Nashoca.Domain.AssemblyInfoInputs.cache
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.Domain\obj\Debug\net8.0\Nashoca.Domain.AssemblyInfo.cs
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.Domain\obj\Debug\net8.0\Nashoca.Domain.csproj.CoreCompileInputs.cache
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.Domain\obj\Debug\net8.0\Nashoca.Domain.sourcelink.json
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.Domain\obj\Debug\net8.0\Nashoca.Domain.dll
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.Domain\obj\Debug\net8.0\refint\Nashoca.Domain.dll
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.Domain\obj\Debug\net8.0\Nashoca.Domain.pdb
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.Domain\obj\Debug\net8.0\ref\Nashoca.Domain.dll

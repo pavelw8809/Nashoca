@@ -1,0 +1,11 @@
+﻿Id,Symbol,Name,PrefP,MainF,AccF,IsB,IsH,IsP,IsPl,IsC,IsCP,IsBP,IsHP,IsVP
+0,SAAT,saat,,saat,saati,false,true,true,true,true,true,false,true,true
+1,BICA,bıçak,,bıçak,bıçağı,false,true,true,true,true,true,false,true,true
+2,KLSA,kol saati,kol,saati,saati,false,true,true,true,true,true,false,true,true
+3,EVXX,ev,,ev,evi,false,true,true,true,true,true,false,true,true
+4,ISXX,iş,,iş,işi,false,true,true,true,true,true,false,false,true
+5,ISIK,ışık,,ışık,ışığı,false,true,true,true,true,false,false,false,false
+6,MEDY,medya,,medya,medyası,false,true,true,true,true,false,false,false,false
+7,SOME,sosyal medya,sosyal,medya,medyası,false,true,false,true,true,false,false,false,false
+8,GIZL,gizlilik,,gizlilik,gizliliği,false,true,true,true,true,false,false,false,false
+9,NEHR,nehir,,nehir,nehri,false,true,false,true,true,false,false,false,false

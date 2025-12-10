@@ -22,3 +22,15 @@ C:/Users/PWieczorek/Projects/Nashoca/Nashoca/Nashoca.CoreEngine/obj/Debug/net8.0
 /_prog/Nashoca/Nashoca/Nashoca.CoreEngine/bin/Debug/net8.0/Nashoca.CoreEngine.dll
 /_prog/Nashoca/Nashoca/Nashoca.CoreEngine/bin/Debug/net8.0/Nashoca.CoreEngine.pdb
 /_prog/Nashoca/Nashoca/Nashoca.CoreEngine/obj/Debug/net8.0/ref/Nashoca.CoreEngine.dll
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.CoreEngine\obj\Debug\net8.0\Nashoca.CoreEngine.GeneratedMSBuildEditorConfig.editorconfig
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.CoreEngine\obj\Debug\net8.0\Nashoca.CoreEngine.AssemblyInfoInputs.cache
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.CoreEngine\obj\Debug\net8.0\Nashoca.CoreEngine.AssemblyInfo.cs
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.CoreEngine\obj\Debug\net8.0\Nashoca.CoreEngine.csproj.CoreCompileInputs.cache
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.CoreEngine\obj\Debug\net8.0\Nashoca.CoreEngine.sourcelink.json
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.CoreEngine\obj\Debug\net8.0\Nashoca.CoreEngine.dll
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.CoreEngine\obj\Debug\net8.0\refint\Nashoca.CoreEngine.dll
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.CoreEngine\obj\Debug\net8.0\Nashoca.CoreEngine.pdb
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.CoreEngine\bin\Debug\net8.0\Nashoca.CoreEngine.deps.json
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.CoreEngine\bin\Debug\net8.0\Nashoca.CoreEngine.dll
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.CoreEngine\bin\Debug\net8.0\Nashoca.CoreEngine.pdb
+F:\_PROG\_PROD\Nashoca\Nashoca\Nashoca.CoreEngine\obj\Debug\net8.0\ref\Nashoca.CoreEngine.dll

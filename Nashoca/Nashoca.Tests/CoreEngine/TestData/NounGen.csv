@@ -1,0 +1,318 @@
+NounNo,FormNo,FormCode,PersonNo,PosesiveNo,IsNegation,IsPlural,IsPersonPlural,IsQuestion,IsPossesivePersonPlural,Form,Eng,Root
+0,0,SAAT-0-00000,0,0,false,false,false,false,false,saat,a clock,saat
+0,10,SAAT-0-00010,0,1,false,false,false,false,false,saatim,my clock,saat
+0,20,SAAT-0-00020,0,2,false,false,false,false,false,saatin,your clock,saat
+0,30,SAAT-0-00030,0,3,false,false,false,false,false,saati,his clock,saat
+0,40,SAAT-0-00040,0,3,false,false,false,false,false,saati,her clock,saat
+0,60,SAAT-0-00060,0,1,false,false,false,false,true,saatimiz,our clock,saat
+0,70,SAAT-0-00070,0,2,false,false,false,false,true,saatiniz,your clock,saat
+0,80,SAAT-0-00080,0,3,false,false,false,false,true,saati,their clock,saat
+0,100,SAAT-0-00100,0,0,false,true,false,false,false,saatler,clocks,saat
+0,110,SAAT-0-00110,0,1,false,true,false,false,false,saatlerim,my clocks,saat
+0,120,SAAT-0-00120,0,2,false,true,false,false,false,saatleri,your clocks,saat
+0,130,SAAT-0-00130,0,3,false,true,false,false,false,saatleri,his clocks,saat
+0,140,SAAT-0-00140,0,3,false,true,false,false,false,saatlerin,her clocks,saat
+0,160,SAAT-0-00160,0,1,false,true,false,false,true,saatlerin,our clocks,saat
+0,170,SAAT-0-00170,0,2,false,true,false,false,true,saatlerin,your clocks,saat
+0,180,SAAT-0-00180,0,3,false,true,false,false,true,saatlerin,their clocks,saat
+0,1000,SAAT-0-01000,0,0,false,false,false,false,false,saati,a clock,saat
+0,1010,SAAT-0-01010,0,1,false,false,false,false,false,saatimi,my clock,saat
+0,1020,SAAT-0-01020,0,2,false,false,false,false,false,saatini,your clock,saat
+0,1030,SAAT-0-01030,0,3,false,false,false,false,false,saatini,his clock,saat
+0,1040,SAAT-0-01040,0,3,false,false,false,false,false,saatini,her clock,saat
+0,1060,SAAT-0-01060,0,1,false,false,false,false,true,saatimizi,our clock,saat
+0,1070,SAAT-0-01070,0,2,false,false,false,false,true,saatinizi,your clock,saat
+0,1080,SAAT-0-01080,0,3,false,false,false,false,true,saatini,their clock,saat
+0,1100,SAAT-0-01100,0,0,false,true,false,false,false,saatleri,clocks,saat
+0,1110,SAAT-0-01110,0,1,false,true,false,false,false,saatlerimi,my clocks,saat
+0,1120,SAAT-0-01120,0,2,false,true,false,false,false,saatlerini,your clocks,saat
+0,1130,SAAT-0-01130,0,3,false,true,false,false,false,saatlerini,his clocks,saat
+0,1140,SAAT-0-01140,0,3,false,true,false,false,false,saatlerini,her clocks,saat
+0,1160,SAAT-0-01160,0,1,false,true,false,false,true,saatlerimizi,our clocks,saat
+0,1170,SAAT-0-01170,0,2,false,true,false,false,true,saatlerinizi,your clocks,saat
+0,1180,SAAT-0-01180,0,3,false,true,false,false,true,saatlerini,their clocks,saat
+0,2000,SAAT-0-02000,0,0,false,false,false,false,false,saate,to a clock,saat
+0,2010,SAAT-0-02010,0,1,false,false,false,false,false,saatime,to my clock,saat
+0,2020,SAAT-0-02020,0,2,false,false,false,false,false,saatine,to your clock,saat
+0,2030,SAAT-0-02030,0,3,false,false,false,false,false,saatine,to his clock,saat
+0,2040,SAAT-0-02040,0,3,false,false,false,false,false,saatine,to her clock,saat
+0,2060,SAAT-0-02060,0,1,false,false,false,false,true,saatimize,to our clock,saat
+0,2070,SAAT-0-02070,0,2,false,false,false,false,true,saatinize,to your clock,saat
+0,2080,SAAT-0-02080,0,3,false,false,false,false,true,saatine,to their clock,saat
+0,2100,SAAT-0-02100,0,0,false,true,false,false,false,saatlere,to clocks,saat
+0,2110,SAAT-0-02110,0,1,false,true,false,false,false,saatlerime,to my clocks,saat
+0,2120,SAAT-0-02120,0,2,false,true,false,false,false,saatlerine,to your clocks,saat
+0,2130,SAAT-0-02130,0,3,false,true,false,false,false,saatlerine,to his clocks,saat
+0,2140,SAAT-0-02140,0,3,false,true,false,false,false,saatlerine,to her clocks,saat
+0,2160,SAAT-0-02160,0,1,false,true,false,false,true,saatlerimize,to our clocks,saat
+0,2170,SAAT-0-02170,0,2,false,true,false,false,true,saatlerinize,to your clocks,saat
+0,2180,SAAT-0-02180,0,3,false,true,false,false,true,saatlerine,to their clocks,saat
+0,3000,SAAT-0-03000,0,0,false,false,false,false,false,saatte,in a clock,saat
+0,3010,SAAT-0-03010,0,1,false,false,false,false,false,saatimde,in my clock,saat
+0,3020,SAAT-0-03020,0,2,false,false,false,false,false,saatinde,in your clock,saat
+0,3030,SAAT-0-03030,0,3,false,false,false,false,false,saatinde,in his clock,saat
+0,3040,SAAT-0-03040,0,3,false,false,false,false,false,saatinde,in her clock,saat
+0,3060,SAAT-0-03060,0,1,false,false,false,false,true,saatimizde,in our clock,saat
+0,3070,SAAT-0-03070,0,2,false,false,false,false,true,saatinizde,in your clock,saat
+0,3080,SAAT-0-03080,0,3,false,false,false,false,true,saatinde,in their clock,saat
+0,3100,SAAT-0-03100,0,0,false,true,false,false,false,saatlerde,in clocks,saat
+0,3110,SAAT-0-03110,0,1,false,true,false,false,false,saatlerimde,in my clocks,saat
+0,3120,SAAT-0-03120,0,2,false,true,false,false,false,saatlerinde,in your clocks,saat
+0,3130,SAAT-0-03130,0,3,false,true,false,false,false,saatlerinde,in his clocks,saat
+0,3140,SAAT-0-03140,0,3,false,true,false,false,false,saatlerinde,in her clocks,saat
+0,3160,SAAT-0-03160,0,1,false,true,false,false,true,saatlerimizde,in our clocks,saat
+0,3170,SAAT-0-03170,0,2,false,true,false,false,true,saatlerinizde,in your clocks,saat
+0,3180,SAAT-0-03180,0,3,false,true,false,false,true,saatlerinde,in their clocks,saat
+0,4000,SAAT-0-04000,0,0,false,false,false,false,false,saatten,from a clock,saat
+0,4010,SAAT-0-04010,0,1,false,false,false,false,false,saatimden,from my clock,saat
+0,4020,SAAT-0-04020,0,2,false,false,false,false,false,saatinden,from your clock,saat
+0,4030,SAAT-0-04030,0,3,false,false,false,false,false,saatinden,from his clock,saat
+0,4040,SAAT-0-04040,0,3,false,false,false,false,false,saatinden,from her clock,saat
+0,4060,SAAT-0-04060,0,1,false,false,false,false,true,saatimizden,from our clock,saat
+0,4070,SAAT-0-04070,0,2,false,false,false,false,true,saatinizden,from your clock,saat
+0,4080,SAAT-0-04080,0,3,false,false,false,false,true,saatinden,from their clock,saat
+0,4100,SAAT-0-04100,0,0,false,true,false,false,false,saatlerden,from clocks,saat
+0,4110,SAAT-0-04110,0,1,false,true,false,false,false,saatlerimden,from my clocks,saat
+0,4120,SAAT-0-04120,0,2,false,true,false,false,false,saatlerinden,from your clocks,saat
+0,4130,SAAT-0-04130,0,3,false,true,false,false,false,saatlerinden,from his clocks,saat
+0,4140,SAAT-0-04140,0,3,false,true,false,false,false,saatlerinden,from her clocks,saat
+0,4160,SAAT-0-04160,0,1,false,true,false,false,true,saatlerimizden,from our clocks,saat
+0,4170,SAAT-0-04170,0,2,false,true,false,false,true,saatlerinizden,from your clocks,saat
+0,4180,SAAT-0-04180,0,3,false,true,false,false,true,saatlerinden,from their clocks,saat
+0,5000,SAAT-0-05000,0,0,false,false,false,false,false,saatin,of a clock,saat
+0,5010,SAAT-0-05010,0,1,false,false,false,false,false,saatimin,of my clock,saat
+0,5020,SAAT-0-05020,0,2,false,false,false,false,false,saatinin,of your clock,saat
+0,5030,SAAT-0-05030,0,3,false,false,false,false,false,saatinin,of his clock,saat
+0,5040,SAAT-0-05040,0,3,false,false,false,false,false,saatinin,of her clock,saat
+0,5060,SAAT-0-05060,0,1,false,false,false,false,true,saatimizin,of our clock,saat
+0,5070,SAAT-0-05070,0,2,false,false,false,false,true,saatinizin,of your clock,saat
+0,5080,SAAT-0-05080,0,3,false,false,false,false,true,saatinin,of their clock,saat
+0,5100,SAAT-0-05100,0,0,false,true,false,false,false,saatlerin,of clocks,saat
+0,5110,SAAT-0-05110,0,1,false,true,false,false,false,saatlerimin,of my clocks,saat
+0,5120,SAAT-0-05120,0,2,false,true,false,false,false,saatlerinin,of your clocks,saat
+0,5130,SAAT-0-05130,0,3,false,true,false,false,false,saatlerinin,of his clocks,saat
+0,5140,SAAT-0-05140,0,3,false,true,false,false,false,saatlerinin,of her clocks,saat
+0,5160,SAAT-0-05160,0,1,false,true,false,false,true,saatlerimizin,of our clocks,saat
+0,5170,SAAT-0-05170,0,2,false,true,false,false,true,saatlerinizin,of your clocks,saat
+0,5180,SAAT-0-05180,0,3,false,true,false,false,true,saatlerinin,of their clocks,saat
+0,6000,SAAT-0-06000,0,0,false,false,false,false,false,saatle,with a clock,saat
+0,6010,SAAT-0-06010,0,1,false,false,false,false,false,saatimle,with my clock,saat
+0,6020,SAAT-0-06020,0,2,false,false,false,false,false,saatinle,with your clock,saat
+0,6030,SAAT-0-06030,0,3,false,false,false,false,false,saatinle,with his clock,saat
+0,6040,SAAT-0-06040,0,3,false,false,false,false,false,saatinle,with her clock,saat
+0,6060,SAAT-0-06060,0,1,false,false,false,false,true,saatimizle,with our clock,saat
+0,6070,SAAT-0-06070,0,2,false,false,false,false,true,saatinizle,with your clock,saat
+0,6080,SAAT-0-06080,0,3,false,false,false,false,true,saatinle,with their clock,saat
+0,6100,SAAT-0-06100,0,0,false,true,false,false,false,saatlerle,with clocks,saat
+0,6110,SAAT-0-06110,0,1,false,true,false,false,false,saatlerimle,with my clocks,saat
+0,6120,SAAT-0-06120,0,2,false,true,false,false,false,saatlerinle,with your clocks,saat
+0,6130,SAAT-0-06130,0,3,false,true,false,false,false,saatlerinle,with his clocks,saat
+0,6140,SAAT-0-06140,0,3,false,true,false,false,false,saatlerinle,with her clocks,saat
+0,6160,SAAT-0-06160,0,1,false,true,false,false,true,saatlerimizle,with our clocks,saat
+0,6170,SAAT-0-06170,0,2,false,true,false,false,true,saatlerinizle,with your clocks,saat
+0,6180,SAAT-0-06180,0,3,false,true,false,false,true,saatlerinle,with their clocks,saat
+0,8000,SAAT-0-08000,0,0,false,false,false,false,false,saat var,there is a clock,saat
+0,8010,SAAT-0-08010,0,1,false,false,false,false,false,saatim var,I have a clock,saat
+0,8020,SAAT-0-08020,0,2,false,false,false,false,false,saatin var,you have a clock,saat
+0,8030,SAAT-0-08030,0,3,false,false,false,false,false,saati var,he has a clock,saat
+0,8040,SAAT-0-08040,0,3,false,false,false,false,false,saati var,she has a clock,saat
+0,8060,SAAT-0-08060,0,1,false,false,false,false,true,saatimiz var,we have a clock,saat
+0,8070,SAAT-0-08070,0,2,false,false,false,false,true,saatiniz var,you have a clock,saat
+0,8080,SAAT-0-08080,0,3,false,false,false,false,true,saati var,they have a clock,saat
+0,8100,SAAT-0-08100,0,0,false,true,false,false,false,saatler var,there are clocks,saat
+0,8110,SAAT-0-08110,0,1,false,true,false,false,false,saatlerim var,I have clocks,saat
+0,8120,SAAT-0-08120,0,2,false,true,false,false,false,saatlerin var,you have clocks,saat
+0,8130,SAAT-0-08130,0,3,false,true,false,false,false,saatleri var,he has clocks,saat
+0,8140,SAAT-0-08140,0,3,false,true,false,false,false,saatleri var,she has clocks,saat
+0,8160,SAAT-0-08160,0,1,false,true,false,false,true,saatlerimiz var,we have clocks,saat
+0,8170,SAAT-0-08170,0,2,false,true,false,false,true,saatleriniz var,you have clocks,saat
+0,8180,SAAT-0-08180,0,3,false,true,false,false,true,saatleri var,they have clocks,saat
+0,8200,SAAT-0-08200,0,0,false,false,false,true,false,saat var mı,is there a clock,saat
+0,8210,SAAT-0-08210,0,1,false,false,false,true,false,saatim var mı,do I have a clock,saat
+0,8220,SAAT-0-08220,0,2,false,false,false,true,false,saatin var mı,do you have a clock,saat
+0,8230,SAAT-0-08230,0,3,false,false,false,true,false,saati var mı,does he have a clock,saat
+0,8240,SAAT-0-08240,0,3,false,false,false,true,false,saati var mı,does she have a clock,saat
+0,8260,SAAT-0-08260,0,1,false,false,false,true,true,saatimiz var mı,do we have a clock,saat
+0,8270,SAAT-0-08270,0,2,false,false,false,true,true,saatiniz var mı,do you have a clock,saat
+0,8280,SAAT-0-08280,0,3,false,false,false,true,true,saati var mı,do they have a clock,saat
+0,8300,SAAT-0-08300,0,0,false,true,false,true,false,saatler var mı,are there clocks,saat
+0,8310,SAAT-0-08310,0,1,false,true,false,true,false,saatlerim var mı,do I have clocks,saat
+0,8320,SAAT-0-08320,0,2,false,true,false,true,false,saatlerin var mı,do you have clocks,saat
+0,8330,SAAT-0-08330,0,3,false,true,false,true,false,saatleri var mı,does he have clocks,saat
+0,8340,SAAT-0-08340,0,3,false,true,false,true,false,saatleri var mı,does she have clocks,saat
+0,8360,SAAT-0-08360,0,1,false,true,false,true,true,saatlerimiz var mı,do we have clocks,saat
+0,8370,SAAT-0-08370,0,2,false,true,false,true,true,saatleriniz var mı,do you have clocks,saat
+0,8380,SAAT-0-08380,0,3,false,true,false,true,true,saatleri var mı,do they have clocks,saat
+0,8420,SAAT-0-08420,0,2,false,false,false,false,false,saatiniz var,you have a clock,saat
+0,8470,SAAT-0-08470,0,2,false,false,false,false,true,saatiniz var,you have a clock,saat
+0,8520,SAAT-0-08520,0,2,false,true,false,false,false,saatleriniz var,you have clocks,saat
+0,8570,SAAT-0-08570,0,2,false,true,false,false,true,saatleriniz var,you have clocks,saat
+0,8620,SAAT-0-08620,0,2,false,false,false,true,false,saatiniz var mı,do you have a clock,saat
+0,8670,SAAT-0-08670,0,2,false,false,false,true,true,saatiniz var mı,do you have a clock,saat
+0,8720,SAAT-0-08720,0,2,false,true,false,true,false,saatleriniz var mı,do you have clocks,saat
+0,8770,SAAT-0-08770,0,2,false,true,false,true,true,saatleriniz var mı,do you have clocks,saat
+0,9000,SAAT-0-09000,0,0,true,false,false,false,false,saat yok,there is no clock,saat
+0,9010,SAAT-0-09010,0,1,true,false,false,false,false,saatim yok,I do not have a clock,saat
+0,9020,SAAT-0-09020,0,2,true,false,false,false,false,saatin yok,you do not have a clock,saat
+0,9030,SAAT-0-09030,0,3,true,false,false,false,false,saati yok,he does not have a clock,saat
+0,9040,SAAT-0-09040,0,3,true,false,false,false,false,saati yok,she does not have a clock,saat
+0,9060,SAAT-0-09060,0,1,true,false,false,false,true,saatimiz yok,we do not have a clock,saat
+0,9070,SAAT-0-09070,0,2,true,false,false,false,true,saatiniz yok,you do not have a clock,saat
+0,9080,SAAT-0-09080,0,3,true,false,false,false,true,saati yok,they do not have a clock,saat
+0,9100,SAAT-0-09100,0,0,true,true,false,false,false,saatler yok,there are no clocks,saat
+0,9110,SAAT-0-09110,0,1,true,true,false,false,false,saatlerim yok,I do not have clocks,saat
+0,9120,SAAT-0-09120,0,2,true,true,false,false,false,saatlerin yok,you do not have clocks,saat
+0,9130,SAAT-0-09130,0,3,true,true,false,false,false,saatleri yok,he does not have clocks,saat
+0,9140,SAAT-0-09140,0,3,true,true,false,false,false,saatleri yok,she does not have clocks,saat
+0,9160,SAAT-0-09160,0,1,true,true,false,false,true,saatlerimiz yok,we do not have clocks,saat
+0,9170,SAAT-0-09170,0,2,true,true,false,false,true,saatleriniz yok,you do not have clocks,saat
+0,9180,SAAT-0-09180,0,3,true,true,false,false,true,saatleri yok,they do not have clocks,saat
+0,9200,SAAT-0-09200,0,0,true,false,false,true,false,saat yok mu,is there not a clock,saat
+0,9210,SAAT-0-09210,0,1,true,false,false,true,false,saatim yok mu,do I not have a clock,saat
+0,9220,SAAT-0-09220,0,2,true,false,false,true,false,saatin yok mu,do you not have a clock,saat
+0,9230,SAAT-0-09230,0,3,true,false,false,true,false,saati yok mu,does he not have a clock,saat
+0,9240,SAAT-0-09240,0,3,true,false,false,true,false,saati yok mu,does she not have a clock,saat
+0,9260,SAAT-0-09260,0,1,true,false,false,true,true,saatimiz yok mu,do we not have a clock,saat
+0,9270,SAAT-0-09270,0,2,true,false,false,true,true,saatiniz yok mu,do you not have a clock,saat
+0,9280,SAAT-0-09280,0,3,true,false,false,true,true,saati yok mu,do they not have a clock,saat
+0,9300,SAAT-0-09300,0,0,true,true,false,true,false,saatler yok mu,are there no clocks,saat
+0,9310,SAAT-0-09310,0,1,true,true,false,true,false,saatlerim yok mu,with my clock,saat
+0,9320,SAAT-0-09320,0,2,true,true,false,true,false,saatlerin yok mu,with your clock,saat
+0,9330,SAAT-0-09330,0,3,true,true,false,true,false,saatleri yok mu,with his clock,saat
+0,9340,SAAT-0-09340,0,3,true,true,false,true,false,saatleri yok mu,with her clock,saat
+0,9360,SAAT-0-09360,0,1,true,true,false,true,true,saatlerimiz yok mu,with our clock,saat
+0,9370,SAAT-0-09370,0,2,true,true,false,true,true,saatleriniz yok mu,with your clock,saat
+0,9380,SAAT-0-09380,0,3,true,true,false,true,true,saatleri yok mu,with their clock,saat
+0,9420,SAAT-0-09420,0,2,true,false,false,false,false,saatiniz yok,you have a clock,saat
+0,9470,SAAT-0-09470,0,2,true,false,false,false,true,saatiniz yok,you have a clock,saat
+0,9520,SAAT-0-09520,0,2,true,true,false,false,false,saatleriniz yok,you have clocks,saat
+0,9570,SAAT-0-09570,0,2,true,true,false,false,true,saatleriniz yok,you have clocks,saat
+0,9620,SAAT-0-09620,0,2,true,false,false,true,false,saatiniz yok mu,do you have a clock,saat
+0,9670,SAAT-0-09670,0,2,true,false,false,true,true,saatiniz yok mu,do you have a clock,saat
+0,9720,SAAT-0-09720,0,2,true,true,false,true,false,saatleriniz yok mu,do you have clocks,saat
+0,9770,SAAT-0-09770,0,2,true,true,false,true,true,saatleriniz yok mu,do you have clocks,saat
+6,0,DOCT-6-00000,0,0,false,false,false,false,doktor,a doctor
+6,1,DOCT-6-00001,1,0,false,false,false,false,ben doktorum,I am a doctor
+6,2,DOCT-6-00002,2,0,false,false,false,false,sen doktorsun,you are a doctor
+6,3,DOCT-6-00003,3,0,false,false,false,false,o doktor,he is a doctor
+6,4,DOCT-6-00004,3,0,false,false,false,false,o doktor,she is a doctor
+6,6,DOCT-6-00006,1,0,false,false,true,false,biz doktoruz,we are doctors
+6,7,DOCT-6-00007,2,0,false,false,true,false,siz doktorsunuz,you are doctors
+6,8,DOCT-6-00008,3,0,false,false,true,false,onlar doktor,they are doctors
+
+6,10,DOCT-6-00010,0,1,false,false,false,false,doktorum,my doctor
+6,20,DOCT-6-00020,0,2,false,false,false,false,doktorun,your doctor
+6,30,DOCT-6-00030,0,3,false,false,false,false,doktoru,his doctor
+6,40,DOCT-6-00040,0,3,false,false,false,false,doktoru,her doctor
+6,60,DOCT-6-00060,0,1,false,false,true,false,doktorumuz,our doctor
+6,70,DOCT-6-00070,0,2,false,false,true,false,doktorunuz,your doctor
+6,80,DOCT-6-00080,0,3,false,false,true,false,doktor,their doctor
+
+6,100,DOCT-6-00100,0,0,false,true,false,false,doktorlar,doctors
+6,110,DOCT-6-00110,1,0,false,false,false,false,doktorlarım,my doctors
+6,120,DOCT-6-00120,2,0,false,false,false,false,doktorların,your doctors
+6,130,DOCT-6-00130,3,0,false,false,false,false,doktorları,his doctors
+6,140,DOCT-6-00140,3,0,false,false,false,false,doktorları,her doctors
+6,160,DOCT-6-00160,1,0,false,false,true,false,doktorlarımız,our doctors
+6,170,DOCT-6-00170,2,0,false,false,true,false,doktorlarınız,our doctors
+6,180,DOCT-6-00180,3,0,false,false,true,false,doktorları,our doctors
+
+6,201,DOCT-6-00201,1,0,true,false,false,false,ben doktor değilim,I am not a doctor
+6,202,DOCT-6-00202,2,0,true,false,false,false,sen doktor değilsin,you are not a doctor
+6,203,DOCT-6-00203,3,0,true,false,false,false,o doktor değil,he is not a doctor
+6,204,DOCT-6-00204,3,0,true,false,false,false,o doktor değil,she is not a doctor
+6,206,DOCT-6-00206,1,0,true,false,true,false,biz doktor değiliz,we are not doctors
+6,207,DOCT-6-00207,2,0,true,false,true,false,siz doktor değilsiniz,you are not doctors
+6,208,DOCT-6-00208,3,0,true,false,true,false,onlar doktor değil,they are not doctors
+
+6,211,DOCT-6-00221,1,2,true,false,false,false,ben senin doktorun değilim,I am not your doctor
+
+
+6,301,DOCT-6-00301,1,0,false,false,false,true,ben doktor muyum,am I not a doctor
+6,302,DOCT-6-00302,2,0,false,false,false,true,sen doktor musun,are you a doctor
+6,303,DOCT-6-00303,3,0,false,false,false,true,o doktor mu,is he a doctor
+6,304,DOCT-6-00304,3,0,false,false,false,true,o doktor mu,is she a doctor
+6,306,DOCT-6-00306,1,0,false,false,true,true,biz doktor muyuz,are we doctors
+6,307,DOCT-6-00307,2,0,false,false,true,true,siz doktor musunuz,are you doctors
+6,308,DOCT-6-00308,3,0,false,false,true,true,onlar doktor mu,are they doctors
+
+6,401,DOCT-6-00401,1,0,true,false,false,true,ben doktor değil miyim,am I not a doctor
+6,402,DOCT-6-00402,2,0,true,false,false,true,sen doktors değil misin,are you not a doctor
+6,403,DOCT-6-00403,3,0,true,false,false,true,o doktor değil mi,is he not a doctor
+6,404,DOCT-6-00404,3,0,true,false,false,true,o doktor değil mi,is she not a doctor
+6,406,DOCT-6-00406,1,0,true,false,true,true,biz doktor değil miyiz,are we not doctors
+6,407,DOCT-6-00407,2,0,true,false,true,true,siz doktor değil misiniz,are you not doctors
+6,408,DOCT-6-00408,3,0,true,false,true,true,onlar doktor değil mi,are they not doctors
+
+6,1000,DOCT-6-01000,0,0,false,false,false,false,doktoru,the doctor
+6,1010,DOCT-6-01010,0,1,false,false,false,false,doktorumu,my doctor
+6,1020,DOCT-6-01020,0,2,false,false,false,false,doktorunu,your doctor
+6,1030,DOCT-6-01030,0,3,false,false,false,false,doktorunu,his doctor
+6,1040,DOCT-6-01040,0,3,false,false,false,false,doktorunu,her doctor
+6,1060,DOCT-6-01060,0,1,false,false,true,false,doktorumuzu,our doctor
+6,1070,DOCT-6-01070,0,2,false,false,true,false,doktorunuzu,your doctor
+6,1080,DOCT-6-01080,0,3,false,false,true,false,doktorunu,their doctor
+
+6,1100,DOCT-6-01100,0,0,false,true,false,false,doktorları,doctors
+6,1110,DOCT-6-01110,0,1,false,false,false,false,doktorlarımı,my doctors
+6,1120,DOCT-6-01120,0,2,false,false,false,false,doktorlarını,your doctors
+6,1130,DOCT-6-01130,0,3,false,false,false,false,doktorlarını,his doctors
+6,1140,DOCT-6-01140,0,3,false,false,false,false,doktorlarını,her doctors
+6,1160,DOCT-6-01160,0,1,false,false,true,false,doktorlarımızı,our doctors
+6,1170,DOCT-6-01170,0,2,false,false,true,false,doktorlarınızı,your doctors
+6,1180,DOCT-6-01180,0,3,false,false,true,false,doktorlarını,their doctors
+
+6,2000,DOCT-6-02000,0,0,false,false,false,false,doktora,to the doctor
+6,2010,DOCT-6-02010,0,1,false,false,false,false,doktoruma,to my doctor
+6,2020,DOCT-6-02020,0,2,false,false,false,false,doktoruna,to your doctor
+6,2030,DOCT-6-02030,0,3,false,false,false,false,doktoruna,to his doctor
+6,2040,DOCT-6-02040,0,3,false,false,false,false,doktoruna,to her doctor
+6,2060,DOCT-6-02060,0,1,false,false,true,false,doktorumuza,to our doctor
+6,2070,DOCT-6-02070,0,2,false,false,true,false,doktorunuza,to your doctor
+6,2080,DOCT-6-02080,0,3,false,false,true,false,doktoruna,to their doctor
+ 
+6,2100,DOCT-6-02100,0,0,false,true,false,false,doktorlara,to the doctors
+6,2110,DOCT-6-02110,0,1,false,false,false,false,doktorlarıma,to my doctors
+6,2120,DOCT-6-02120,0,2,false,false,false,false,doktorlarına,to your doctors
+6,2130,DOCT-6-02130,0,3,false,false,false,false,doktorlarına,to his doctors
+6,2140,DOCT-6-02140,0,3,false,false,false,false,doktorlarına,to her doctors
+6,2160,DOCT-6-02160,0,1,false,false,true,false,doktorlarımıza,to our doctors
+6,2170,DOCT-6-02170,0,2,false,false,true,false,doktorlarınıza,to your doctors
+6,2180,DOCT-6-02180,0,3,false,false,true,false,doktorlarına,to their doctors
+
+6,3000,DOCT-6-03000,0,0,false,false,false,false,doktorda,at the doctor's
+6,3010,DOCT-6-03010,0,1,false,false,false,false,doktorumda,at my doctor's
+6,3020,DOCT-6-03020,0,2,false,false,false,false,doktorunda,at your doctor's
+6,3030,DOCT-6-03030,0,3,false,false,false,false,doktoruda,at his doctor's
+6,3040,DOCT-6-03040,0,3,false,false,false,false,doktoruda,at her doctor's
+6,3060,DOCT-6-03060,0,1,false,false,true,false,doktorumuzda,at our doctor's
+6,3070,DOCT-6-03070,0,2,false,false,true,false,doktorunuzda,at your doctor's
+6,3080,DOCT-6-03080,0,3,false,false,true,false,doktoruda,at their doctor's
+ 
+6,3100,DOCT-6-03100,0,0,false,true,false,false,doktorlarda,at the doctors'
+6,3110,DOCT-6-03110,0,1,false,false,false,false,doktorlarımda,at my doctors'
+6,3120,DOCT-6-03120,0,2,false,false,false,false,doktorlarında,at your doctors'
+6,3130,DOCT-6-03130,0,3,false,false,false,false,doktorlarında,at his doctors'
+6,3140,DOCT-6-03140,0,3,false,false,false,false,doktorlarında,at her doctors'
+6,3160,DOCT-6-03160,0,1,false,false,true,false,doktorlarımızda,at our doctors'
+6,3170,DOCT-6-03170,0,2,false,false,true,false,doktorlarınızda,at your doctors'
+6,3180,DOCT-6-03180,0,3,false,false,true,false,doktorlarında,at their doctors'
+
+6,4000,DOCT-6-04000,0,0,false,false,false,false,doktordan,from the doctor
+6,4010,DOCT-6-04010,0,1,false,false,false,false,doktorumdan,from my doctor
+6,4020,DOCT-6-04020,0,2,false,false,false,false,doktorundan,from your doctor
+6,4030,DOCT-6-04030,0,3,false,false,false,false,doktorudan,from his doctor
+6,4040,DOCT-6-04040,0,3,false,false,false,false,doktorudan,from her doctor
+6,4060,DOCT-6-04060,0,1,false,false,true,false,doktorumuzdan,from our doctor
+6,4070,DOCT-6-04070,0,2,false,false,true,false,doktorunuzdan,from your doctor
+6,4080,DOCT-6-04080,0,3,false,false,true,false,doktorudan,from their doctor
+ 
+6,4100,DOCT-6-04100,0,0,false,true,false,false,doktorlardan,from the doctors
+6,4110,DOCT-6-04110,0,1,false,false,false,false,doktorlarımdan,from my doctors
+6,4120,DOCT-6-04120,0,2,false,false,false,false,doktorlarından,from your doctors
+6,4130,DOCT-6-04130,0,3,false,false,false,false,doktorlarından,from his doctors
+6,4140,DOCT-6-04140,0,3,false,false,false,false,doktorlarından,from her doctors
+6,4160,DOCT-6-04160,0,1,false,false,true,false,doktorlarımızdan,from our doctors
+6,4170,DOCT-6-04170,0,2,false,false,true,false,doktorlarınızdan,from your doctors
+6,4180,DOCT-6-04180,0,3,false,false,true,false,doktorlarından,from their doctors
+

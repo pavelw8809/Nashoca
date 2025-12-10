@@ -1,0 +1,14 @@
+Id,Symbol,Name,PrefP,MainF,MinF,AoristS,PassS,Rules
+0,ZIET,ziyaret etmek,ziyaret,et,ed,er,il,
+1,BILM,bilmek,,bil,bil,ir,in,
+2,OLME,ölmek,,öl,öl,ür,,
+3,ANLA,anlamak,,anla,anla,r,şıl
+4,YAPM,yapmak,,yap,yap,ar,ıl,
+5,GITM,gitmek,,git,gid,er,il,
+6,GELM,gelmek,,gel,gel,ir,,
+7,YURU,yürümek,,yürü,yürü,r,,
+8,GEZI,gezinmek,,gezin,gezin,ir,,
+9,INGZ,internette gezinmek,internette,gezin,gezin,ir,,
+10,OKUX,okumak,,oku,oku,r,,
+11,OLUS,oluşturmak,,oluştur,oluştur,ur,,
+12,AFFE,affetmek,,affet,affed,er,,

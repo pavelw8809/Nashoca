@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/_prog/Nashoca/Nashoca/Nashoca.Tests/Nashoca.Tests.csproj": {}
+    "F:\\_PROG\\_PROD\\Nashoca\\Nashoca\\Nashoca.Tests\\Nashoca.Tests.csproj": {}
   },
   "projects": {
-    "/_prog/Nashoca/Nashoca/Nashoca.CoreEngine/Nashoca.CoreEngine.csproj": {
+    "F:\\_PROG\\_PROD\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/_prog/Nashoca/Nashoca/Nashoca.CoreEngine/Nashoca.CoreEngine.csproj",
+        "projectUniqueName": "F:\\_PROG\\_PROD\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj",
         "projectName": "Nashoca.CoreEngine",
-        "projectPath": "/_prog/Nashoca/Nashoca/Nashoca.CoreEngine/Nashoca.CoreEngine.csproj",
-        "packagesPath": "/home/pavel/.nuget/packages/",
-        "outputPath": "/_prog/Nashoca/Nashoca/Nashoca.CoreEngine/obj/",
+        "projectPath": "F:\\_PROG\\_PROD\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj",
+        "packagesPath": "C:\\Users\\wiecz\\.nuget\\packages\\",
+        "outputPath": "F:\\_PROG\\_PROD\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/pavel/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\wiecz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -60,27 +66,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.111/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/_prog/Nashoca/Nashoca/Nashoca.Domain/Nashoca.Domain.csproj": {
+    "F:\\_PROG\\_PROD\\Nashoca\\Nashoca\\Nashoca.Domain\\Nashoca.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/_prog/Nashoca/Nashoca/Nashoca.Domain/Nashoca.Domain.csproj",
+        "projectUniqueName": "F:\\_PROG\\_PROD\\Nashoca\\Nashoca\\Nashoca.Domain\\Nashoca.Domain.csproj",
         "projectName": "Nashoca.Domain",
-        "projectPath": "/_prog/Nashoca/Nashoca/Nashoca.Domain/Nashoca.Domain.csproj",
-        "packagesPath": "/home/pavel/.nuget/packages/",
-        "outputPath": "/_prog/Nashoca/Nashoca/Nashoca.Domain/obj/",
+        "projectPath": "F:\\_PROG\\_PROD\\Nashoca\\Nashoca\\Nashoca.Domain\\Nashoca.Domain.csproj",
+        "packagesPath": "C:\\Users\\wiecz\\.nuget\\packages\\",
+        "outputPath": "F:\\_PROG\\_PROD\\Nashoca\\Nashoca\\Nashoca.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/pavel/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\wiecz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -99,7 +111,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -120,38 +132,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.111/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/_prog/Nashoca/Nashoca/Nashoca.Tests/Nashoca.Tests.csproj": {
+    "F:\\_PROG\\_PROD\\Nashoca\\Nashoca\\Nashoca.Tests\\Nashoca.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/_prog/Nashoca/Nashoca/Nashoca.Tests/Nashoca.Tests.csproj",
+        "projectUniqueName": "F:\\_PROG\\_PROD\\Nashoca\\Nashoca\\Nashoca.Tests\\Nashoca.Tests.csproj",
         "projectName": "Nashoca.Tests",
-        "projectPath": "/_prog/Nashoca/Nashoca/Nashoca.Tests/Nashoca.Tests.csproj",
-        "packagesPath": "/home/pavel/.nuget/packages/",
-        "outputPath": "/_prog/Nashoca/Nashoca/Nashoca.Tests/obj/",
+        "projectPath": "F:\\_PROG\\_PROD\\Nashoca\\Nashoca\\Nashoca.Tests\\Nashoca.Tests.csproj",
+        "packagesPath": "C:\\Users\\wiecz\\.nuget\\packages\\",
+        "outputPath": "F:\\_PROG\\_PROD\\Nashoca\\Nashoca\\Nashoca.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/pavel/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\wiecz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/_prog/Nashoca/Nashoca/Nashoca.CoreEngine/Nashoca.CoreEngine.csproj": {
-                "projectPath": "/_prog/Nashoca/Nashoca/Nashoca.CoreEngine/Nashoca.CoreEngine.csproj"
+              "F:\\_PROG\\_PROD\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj": {
+                "projectPath": "F:\\_PROG\\_PROD\\Nashoca\\Nashoca\\Nashoca.CoreEngine\\Nashoca.CoreEngine.csproj"
               },
-              "/_prog/Nashoca/Nashoca/Nashoca.Domain/Nashoca.Domain.csproj": {
-                "projectPath": "/_prog/Nashoca/Nashoca/Nashoca.Domain/Nashoca.Domain.csproj"
+              "F:\\_PROG\\_PROD\\Nashoca\\Nashoca\\Nashoca.Domain\\Nashoca.Domain.csproj": {
+                "projectPath": "F:\\_PROG\\_PROD\\Nashoca\\Nashoca\\Nashoca.Domain\\Nashoca.Domain.csproj"
               }
             }
           }
@@ -166,7 +184,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -227,7 +245,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.111/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

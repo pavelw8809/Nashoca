@@ -34,9 +34,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="CoreEngine\TestData\VerbEn.csv" CopyToOutputDirectory="Always"/>
-    <None Include="CoreEngine\TestData\VerbTr.csv" CopyToOutputDirectory="Always"/>
-    <None Include="CoreEngine\TestData\VerbGen.csv" CopyToOutputDirectory="Always"/>
+    <None Include="CoreEngine\TestData\VerbEn.csv" CopyToOutputDirectory="Always" />
+    <None Include="CoreEngine\TestData\VerbTr.csv" CopyToOutputDirectory="Always" />
+    <None Include="CoreEngine\TestData\VerbGen.csv" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="CoreEngine\TestData\NounTr.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

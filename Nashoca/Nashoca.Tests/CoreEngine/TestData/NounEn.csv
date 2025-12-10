@@ -1,2 +1,9 @@
-Id,Symbol,Name,NamePl
-0,CLOC,clock,clocks
+Id,Symbol,Name,PrefP,MainF,NamePl,InP
+0,CLOC,clock,,clock,clocks,in
+1,KNIF,knife,,knife,knives,in
+2,CITY,city,,city,cities,
+3,BODY,body,,body,bodies
+4,CALC,calculator,,calculator,calculators
+5,BRIE,brief,,brief,briefs
+6,DOCT,doctor,,doctor,doctors
+7,CARX,car,,car,cars

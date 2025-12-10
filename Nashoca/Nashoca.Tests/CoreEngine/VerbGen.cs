@@ -1,12 +1,13 @@
 ﻿using CsvHelper;
 using CsvHelper.Configuration;
 using Microsoft.VisualStudio.TestPlatform.Utilities;
-using Nashoca.CoreEngine.Core;
-using Nashoca.CoreEngine.Generators.Turkish;
-using Nashoca.CoreEngine.Models.Verbs;
+using Nashoca.CoreEngine.Domain.Generators.Verbs;
+using Nashoca.CoreEngine.Infrastructure.Models.Verbs;
 using Nashoca.Domain.Entities;
+using Nashoca.Tests.Helpers;
 using Nashoca.Tests.Model;
 using System.Globalization;
+using System.Text.RegularExpressions;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -21,9 +22,9 @@ namespace Nashoca.Tests.CoreEngine
             _outputHelper = outputHelper;
         }
 
+        /*
         public static IEnumerable<T> GetCsvData<T>(string filePath, string delimeter = ",")
         {
-            Console.WriteLine(filePath);
             var config = new CsvConfiguration(CultureInfo.InvariantCulture)
             {
                 Delimiter = delimeter,
@@ -46,30 +47,97 @@ namespace Nashoca.Tests.CoreEngine
                 throw new FileNotFoundException();
             }
         }
+        */
 
         public static IEnumerable<object[]> GetVerbTestData()
         {
-            var testType = 21;
+            var testType = 6;
             var projectDir = AppContext.BaseDirectory;
-            var verbGenList = GetCsvData<VerbGenObj>(Path.Combine(projectDir, "CoreEngine", "TestData", "VerbGen.csv"));
-            var verbTrList = GetCsvData<VerbTr>(Path.Combine(projectDir, "CoreEngine", "TestData", "VerbTr.csv"));
-            var verbEnList = GetCsvData<VerbEnMin>(Path.Combine(projectDir, "CoreEngine", "TestData", "VerbEn.csv"));
+            var verbGenList = FileHandler.GetCsvData<VerbGenObj>(Path.Combine(projectDir, "CoreEngine", "TestData", "VerbGen.csv"));
+            var verbTrList = FileHandler.GetCsvData<VerbTr>(Path.Combine(projectDir, "CoreEngine", "TestData", "VerbTr.csv"));
+            var verbEnList = FileHandler.GetCsvData<VerbEnMin>(Path.Combine(projectDir, "CoreEngine", "TestData", "VerbEn.csv"));
+
+            //var allItems = new List<(VerbTr verbTr, VerbEnMin verbEn, VerbGenObj form)>();
+            List<VerbInputObjTrEn> allObjects = [];
+            List<VerbGenTestItem> allTestingObjects = [];
 
             foreach (var verbTr in verbTrList)
             {
+                var forms = verbGenList.Where(x => x.VerbNo == verbTr.Id && x.FormNo >= testType * 100 && x.FormNo < (testType * 100) + 100);
                 var verbEn = verbEnList.FirstOrDefault(x => x.Id == verbTr.Id);
+                //List<InputObjTrEn> verbObjList = [];
 
-                var forms = verbGenList.Where(x => x.VerbNo == verbTr.Id && x.FormNo >= testType*100 && x.FormNo < (testType*100)+100);
-
-
-                foreach (var form in forms)
+                VerbInputObjTrEn verbObj = new()
                 {
-                    Console.WriteLine($"Filtered Form: {form.FormCode}, {form.Form}, {form.IsPlural}");
-                    yield return new object[] { verbTr, verbEn, form };
+                    TrSymbol = verbTr.Symbol,
+                    TrName = verbTr.Name,
+                    TrPrefP = verbTr.PrefP,
+                    TrMainF = verbTr.MainF,
+                    TrMinF = verbTr.MinF,
+                    TrAoS = verbTr.AoristS,
+                    TrPassS = verbTr.PassS,
+                    TrRules = verbTr.Rules,
+                    EnPrefP = verbEn.PrefP,
+                    EnMainF = verbEn.MainF,
+                    EnPostP = verbEn.PostP,
+                    EnContF = verbEn.ContF,
+                    EnPastF = verbEn.PastF,
+                    EnPPastF = verbEn.PPastF,
+                    EnRules = verbEn.Rules,
+                    TransId = verbTr.Id
+                };
+
+                yield return new object[] { verbObj, forms };
+            }
+        }
+
+        [Theory]
+        [MemberData(nameof(GetVerbTestData))]
+        public void VerbConstruction_GenerateMany_ShoulReturnValidOutput(VerbInputObjTrEn testObj, IEnumerable<VerbGenObj> formList)
+        {
+            var gen = new VerbGenerator();
+
+            List<int> formNumbers = formList.Select(x => x.FormNo).ToList();
+
+            IEnumerable<VerbOutputObjTrEn> resultList = gen.GenerateMany(testObj, formNumbers);
+
+            if (resultList.Any())
+            {
+                foreach (var result in resultList)
+                {
+                    VerbGenObj expectedForm = formList.Where(x => x.FormCode == result.FormCode).FirstOrDefault();
+
+                    Assert.Equal(expectedForm.FormCode, result.FormCode);
+                    Assert.Equal(testObj.TrName, result.Name);
+                    Assert.Equal(expectedForm.Form, result.FormName);
+                    Assert.Equal(expectedForm.IsPlural, result.IsPlural);
+                    Assert.Equal(expectedForm.PersonNo, result.Person);
+                    Assert.Equal(expectedForm.Eng, result.EnTranslation.EnTranslation);
                 }
             }
         }
 
+        [Theory]
+        [MemberData(nameof(GetVerbTestData))]
+        public void VerbConstruction_GenerateOne_ShouldReturnValidOutput(VerbInputObjTrEn testObj, IEnumerable<VerbGenObj> formList)
+        {
+            var gen = new VerbGenerator();
+
+            foreach (var form in formList)
+            {
+                VerbOutputObjTrEn result = gen.GenerateOne(testObj, form.FormNo);
+                VerbGenObj expectedForm = formList.Where(x => x.FormCode == result.FormCode).FirstOrDefault();
+
+                Assert.Equal(expectedForm.FormCode, result.FormCode);
+                Assert.Equal(testObj.TrName, result.Name);
+                Assert.Equal(expectedForm.Form, result.FormName);
+                Assert.Equal(expectedForm.IsPlural, result.IsPlural);
+                Assert.Equal(expectedForm.PersonNo, result.Person);
+                Assert.Equal(expectedForm.Eng, result.EnTranslation.EnTranslation);
+            }
+        }
+
+        /*
         [Theory]
         [MemberData(nameof(GetVerbTestData))]
         public void VerbConstruction_Generate_ShouldReturnValidOutput(VerbTr verbTr, VerbEnMin verbEn, VerbGenObj expectedForm)
@@ -77,7 +145,7 @@ namespace Nashoca.Tests.CoreEngine
             // Arrange
             var gen = new VerbGenerator();
             var input = GenerateInputList(verbTr, verbEn);
-            input.FormNo = expectedForm.FormNo;
+            //input.FormNo = expectedForm.FormNo;
 
             Console.WriteLine($"current Item: {input.FormNo}");
 
@@ -100,6 +168,7 @@ namespace Nashoca.Tests.CoreEngine
             Assert.Equal(expectedForm.PersonNo, result.Person);
             Assert.Equal(expectedForm.Eng, result.EnTranslation.EnTranslation);
         }
+        */
 
         /*
         private void VerbConstruction_Generate_ShouldReturnValidOutput_Main(int Mode, IEnumerable<VerbTr> verbTrs, IEnumerable<VerbEnMin> verbEns, IEnumerable<VerbGenObj> formList)
@@ -195,7 +264,6 @@ namespace Nashoca.Tests.CoreEngine
                 }
             }
         }
-        */
 
         private InputObjTrEn GenerateInputList(VerbTr verbTr, VerbEnMin verbEn)
         {
@@ -219,6 +287,7 @@ namespace Nashoca.Tests.CoreEngine
                 TransId = verbTr.Id
             };
         }
+        */
     }
 
     public class BooleanConverter : CsvHelper.TypeConversion.BooleanConverter
